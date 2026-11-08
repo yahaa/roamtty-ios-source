@@ -1,0 +1,6 @@
+Roamtty iOS
+Copyright 2026 Roamtty contributors
+
+Includes SwiftTerm by Miguel de Icaza and contributors, libssh2, OpenSSL,
+and bundled fonts by their respective copyright owners.
+See THIRD_PARTY_NOTICES.md and licenses/ for full notices and licenses.

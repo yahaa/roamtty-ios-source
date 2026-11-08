@@ -1,0 +1,65 @@
+# SwiftLint for the app, the packages, their tests and the check scripts: `scripts/lint.sh` (zero warnings expected).
+included:
+  - App
+  - Sources
+  - Tests
+  - scripts
+  - Package.swift
+excluded:
+  - scripts/terminal-url/SwiftTerm
+  - scripts/terminal-url/.build
+  - .build
+
+disabled_rules:
+  # Command output, terminal bytes and wire payloads are decoded with String(decoding:as:) on purpose: one stray
+  # byte must not turn a whole answer into nil.
+  - optional_data_string_conversion
+  # SwiftUI's sheet(onDismiss:) { content } and the transport's retry(cancelled:) { operation } take an action closure
+  # before the trailing one; labelling the trailing closure there reads worse.
+  - multiple_closures_with_trailing_closure
+
+opt_in_rules:
+  - first_where
+  - contains_over_first_not_nil
+  - last_where
+  - toggle_bool
+  - redundant_nil_coalescing
+  - unneeded_parentheses_in_closure_argument
+  - sorted_first_last
+  - modifier_order
+  - closure_end_indentation
+
+identifier_name:
+  # Geometry and protocol code reads best with x, y, dx, i, n; the wire constants keep the SCREAMING_SNAKE names of
+  # the Android sources they port, so the two stay easy to compare.
+  min_length: 1
+  max_length: 60
+  allowed_symbols: ["_"]
+  validates_start_with_lowercase: off
+
+type_name:
+  max_length: 60
+
+line_length:
+  warning: 200
+  error: 300
+  ignores_comments: true
+  ignores_urls: true
+
+# Ceilings for the longest existing state machines and view builders; new code should stay well below them.
+function_body_length:
+  warning: 120
+type_body_length:
+  warning: 750
+file_length:
+  warning: 1000
+  ignore_comment_only_lines: true
+cyclomatic_complexity:
+  warning: 30
+  ignores_case_statements: true
+function_parameter_count:
+  warning: 9
+large_tuple:
+  warning: 4
+nesting:
+  type_level: 2

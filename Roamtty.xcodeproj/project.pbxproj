@@ -1,0 +1,4303 @@
+// !$*UTF8*$!
+{
+	"archiveVersion" = "1";
+	"classes" = {
+	};
+	"objectVersion" = "56";
+	"objects" = {
+		"669A012A12A1F2A99AD17919" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "archive.ar";
+			"path" = "libCNative.a";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+			"includeInIndex" = "0";
+		};
+		"9D137293EAD0820387268946" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "archive.ar";
+			"path" = "libRoamttyCore.a";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+			"includeInIndex" = "0";
+		};
+		"963E5982DADA5BA041DD36E5" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "archive.ar";
+			"path" = "libRoamttyTransport.a";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+			"includeInIndex" = "0";
+		};
+		"1698D31B32D16A3C5C4BD473" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "archive.ar";
+			"path" = "libRoamttyDesktopCore.a";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+			"includeInIndex" = "0";
+		};
+		"B30607D2B16313D9BC09B393" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.application";
+			"path" = "Roamtty.app";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+			"includeInIndex" = "0";
+		};
+		"20ADB0BBEA9CF4248B4BEF65" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.app-extension";
+			"path" = "RoamttyShare.appex";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+			"includeInIndex" = "0";
+		};
+		"14B9BC29A74E489722D4C0B8" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.cfbundle";
+			"path" = "RoamttyUITests.xctest";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+			"includeInIndex" = "0";
+		};
+		"B6017F4F9715BEEF46CF61B5" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/CNative/crypto.c";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.c.c";
+		};
+		"DECB1AF52840537ECFD98A24" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "B6017F4F9715BEEF46CF61B5";
+		};
+		"F29D2CBFE59662B7EEDFF4CF" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/CNative/local_files.c";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.c.c";
+		};
+		"5CED979BE6BB92D811C54CE3" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "F29D2CBFE59662B7EEDFF4CF";
+		};
+		"9DA935E7F972A8D85DA74A18" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/CNative/socket.c";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.c.c";
+		};
+		"F245A039DFDD49C11184082C" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "9DA935E7F972A8D85DA74A18";
+		};
+		"12A0B07E1396A716062069BF" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/CNative/ssh_heap.c";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.c.c";
+		};
+		"748A732986B25DCBE3FE2822" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "12A0B07E1396A716062069BF";
+		};
+		"FC383AEAFC05679D7D520CC0" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				"DECB1AF52840537ECFD98A24",
+				"5CED979BE6BB92D811C54CE3",
+				"F245A039DFDD49C11184082C",
+				"748A732986B25DCBE3FE2822",
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"2BC38F8FD52187960CC70B6B" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"452530CA3D5E70D797DA6F10" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SDKROOT" = "iphoneos";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "16.0";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"SWIFT_VERSION" = "5.0";
+				"SWIFT_STRICT_CONCURRENCY" = "minimal";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu11";
+				"CLANG_CXX_LANGUAGE_STANDARD" = "c++17";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "";
+				"COPY_PHASE_STRIP" = "NO";
+				"LM_SKIP_METADATA_EXTRACTION" = "YES";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "NO";
+				"ROAMTTY_APP_GROUP_ENABLED" = "NO";
+				"ROAMTTY_ENTITLEMENTS" = "App/Support/Development.entitlements";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited) DEBUG";
+				"HEADER_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/include",
+				);
+				"LIBRARY_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/lib",
+				);
+				"SWIFT_INCLUDE_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				"OTHER_LDFLAGS" = (
+					"$(inherited)",
+					"-lssh2",
+					"-lcrypto",
+					"-lz",
+					"-lsqlite3",
+				);
+				"SKIP_INSTALL" = "YES";
+				"DEFINES_MODULE" = "YES";
+				"SWIFT_INSTALL_OBJC_HEADER" = "NO";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"MACH_O_TYPE" = "staticlib";
+				"CODE_SIGNING_ALLOWED" = "NO";
+				"MODULEMAP_FILE" = "$(SRCROOT)/Sources/CNative/include/module.modulemap";
+				"PUBLIC_HEADERS_FOLDER_PATH" = "include/CNative";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"GCC_OPTIMIZATION_LEVEL" = "0";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"ONLY_ACTIVE_ARCH" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"FA9E991A58DEE77BB22B464F" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SDKROOT" = "iphoneos";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "16.0";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"SWIFT_VERSION" = "5.0";
+				"SWIFT_STRICT_CONCURRENCY" = "minimal";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu11";
+				"CLANG_CXX_LANGUAGE_STANDARD" = "c++17";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "";
+				"COPY_PHASE_STRIP" = "NO";
+				"LM_SKIP_METADATA_EXTRACTION" = "YES";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "NO";
+				"ROAMTTY_APP_GROUP_ENABLED" = "NO";
+				"ROAMTTY_ENTITLEMENTS" = "App/Support/Development.entitlements";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited)";
+				"HEADER_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/include",
+				);
+				"LIBRARY_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/lib",
+				);
+				"SWIFT_INCLUDE_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				"OTHER_LDFLAGS" = (
+					"$(inherited)",
+					"-lssh2",
+					"-lcrypto",
+					"-lz",
+					"-lsqlite3",
+				);
+				"SKIP_INSTALL" = "YES";
+				"DEFINES_MODULE" = "YES";
+				"SWIFT_INSTALL_OBJC_HEADER" = "NO";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"MACH_O_TYPE" = "staticlib";
+				"CODE_SIGNING_ALLOWED" = "NO";
+				"MODULEMAP_FILE" = "$(SRCROOT)/Sources/CNative/include/module.modulemap";
+				"PUBLIC_HEADERS_FOLDER_PATH" = "include/CNative";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+				"SWIFT_COMPILATION_MODE" = "wholemodule";
+			};
+			"name" = "Release";
+		};
+		"5A608DFC6257E38A503B56B3" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"452530CA3D5E70D797DA6F10",
+				"FA9E991A58DEE77BB22B464F",
+			);
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"17CB739106A4D48F677BA476" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "5A608DFC6257E38A503B56B3";
+			"buildPhases" = (
+				"FC383AEAFC05679D7D520CC0",
+				"2BC38F8FD52187960CC70B6B",
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+			);
+			"name" = "CNative";
+			"productName" = "CNative";
+			"productReference" = "669A012A12A1F2A99AD17919";
+			"productType" = "com.apple.product-type.library.static";
+		};
+		"DD135AE328425E2795939845" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Files/LocalDownloadDirectory.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"947FABAF2825E6DB658CDCA7" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "DD135AE328425E2795939845";
+		};
+		"3A938337318A347BAE494B2B" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Files/RemoteFileOptions.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"230B2F5782E7AFCFF21563AC" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "3A938337318A347BAE494B2B";
+		};
+		"ACA00831E368C5F462338997" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Files/RemoteFiles.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"BF85CAA9E486461475E474B3" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "ACA00831E368C5F462338997";
+		};
+		"64F3670E1868B5042B858670" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Files/RemoteFolders.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"245FE4F22A0CE1CD5CE4EF57" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "64F3670E1868B5042B858670";
+		};
+		"A828B1F3627B578DB78D1191" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Model/HostConnectionIdentity.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"C030B7D2AD66D52F69E754C5" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "A828B1F3627B578DB78D1191";
+		};
+		"EAF8A5D9A5A4E4D01EDA2F0C" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Model/HostLaunchPolicy.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"562F181FB651C53CC865F2D8" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "EAF8A5D9A5A4E4D01EDA2F0C";
+		};
+		"5911AA64DC51D79AF1D48EE3" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Model/Models.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"51507094103D07E53961CCDF" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "5911AA64DC51D79AF1D48EE3";
+		};
+		"014BC45F59967C01823B86D0" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Persistence/AppStore.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"1CB14EDEF94FCCA05A1797F7" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "014BC45F59967C01823B86D0";
+		};
+		"888D25239A31B49E2AD6D34C" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Preview/BoundedImagePool.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"3906F37DA46372CA323D058D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "888D25239A31B49E2AD6D34C";
+		};
+		"C5EEE17109AD65380016E716" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Remote/AgentAlerts.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"4E32F1A3BAC7F209237F19A1" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C5EEE17109AD65380016E716";
+		};
+		"2A62D01C332DFCB74A61A00D" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Remote/AgentStatus.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"89B85E79BEB64FE36D24740F" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "2A62D01C332DFCB74A61A00D";
+		};
+		"479A1910BF014C20FC5AF9DE" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Remote/HostMetricSeries.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"1FEB3F6A48C9E816697D6AD6" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "479A1910BF014C20FC5AF9DE";
+		};
+		"A143104B8ED0BF4DD32C7D4A" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Remote/HostMetrics.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"885DE950DB7E52AFB2AB480E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "A143104B8ED0BF4DD32C7D4A";
+		};
+		"841793D9AD9C3E64C02BA933" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Remote/ListeningPorts.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"CDD959BC14877DC0D68017CF" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "841793D9AD9C3E64C02BA933";
+		};
+		"F811886F553657F44D323B63" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Remote/PluginInstallLog.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"545D44988348FE61A7F7E0A2" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "F811886F553657F44D323B63";
+		};
+		"D3BB72CD8CEDBD456BC359B9" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Remote/RemoteCommands.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"055C3D540414773786AC526D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "D3BB72CD8CEDBD456BC359B9";
+		};
+		"FEED4FC34DD713D350EC6BCF" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Security/CredentialCache.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"7BFF98A81D79BD641D37F0BF" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "FEED4FC34DD713D350EC6BCF";
+		};
+		"1FF70DD71F89C24319E7B56F" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Security/PrivateKeys.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"8CD7F50C67D6E11BFFF109D5" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "1FF70DD71F89C24319E7B56F";
+		};
+		"AF0DB593C0A15610CE404A1C" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Security/SecretVault.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"01B838A1A3BBCD2806245401" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "AF0DB593C0A15610CE404A1C";
+		};
+		"DDBA20A7850C42CE1BB647FD" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Security/Trust.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"5E0B95D29E8011EE578DC97E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "DDBA20A7850C42CE1BB647FD";
+		};
+		"F0559CCEFC205D7F638A69B4" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Sessions/ConnectionGenerations.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"382244652F30FFF4D86142CF" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "F0559CCEFC205D7F638A69B4";
+		};
+		"509F207EB17BDF731A4E75FC" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Sessions/SessionConnectionSnapshot.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"B067C6C226A34C844ADF8BF8" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "509F207EB17BDF731A4E75FC";
+		};
+		"61C76A1052AAC076E578C27B" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Sessions/SessionLoginSnapshot.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"4E3E0A6FCA83095DCE7BEC7D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "61C76A1052AAC076E578C27B";
+		};
+		"CA40783062D85E118B48D1B3" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Sessions/SessionReconnect.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"5E179FC0D45020473EAF29F3" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "CA40783062D85E118B48D1B3";
+		};
+		"D8C04439A049DB28EC095138" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Terminal/TerminalAttachment.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"AC686F43342E9263D06AC2B8" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "D8C04439A049DB28EC095138";
+		};
+		"5D352DFC0CB3932BE4310117" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Terminal/TerminalCursorTap.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"957D41FCC3E4B9DB0735E62D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "5D352DFC0CB3932BE4310117";
+		};
+		"8829EFED30FF69AC57070DD3" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Terminal/TerminalDeleteHold.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"797EA799965C33210DE454FE" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "8829EFED30FF69AC57070DD3";
+		};
+		"B12148D47D4A403895ADAD9C" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Terminal/TerminalMouseTracking.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"164394B7320B127FF22F509E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "B12148D47D4A403895ADAD9C";
+		};
+		"9584A3E060A90DAE76F52D31" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Terminal/TerminalPath.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"BD67D257E19901C1D935555B" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "9584A3E060A90DAE76F52D31";
+		};
+		"DEC4E88920BF88513B721B48" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Terminal/TerminalScrollInertia.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"6E7E1969A77D9CED3D57FF80" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "DEC4E88920BF88513B721B48";
+		};
+		"58D4AA42874F42E45272C0EF" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Terminal/TerminalShortcuts.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"4A92B076A79578B5A06C82AB" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "58D4AA42874F42E45272C0EF";
+		};
+		"389DDE38C8E45502D2229DF4" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Terminal/TerminalSynchronizedOutput.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"BD006930954989BCC27083B9" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "389DDE38C8E45502D2229DF4";
+		};
+		"A986020F5DF4C4B0EB053611" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Terminal/TerminalUrl.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"C36B34D28C95AD0371A59F08" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "A986020F5DF4C4B0EB053611";
+		};
+		"57FEC7FE39114A38EBCC061B" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Text/CodeSearch.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"6CB83B8975132D16C8046F92" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "57FEC7FE39114A38EBCC061B";
+		};
+		"91E23E61F928968365F02DAF" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Text/Markdown.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"669116967C8FC1FDFE7F381D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "91E23E61F928968365F02DAF";
+		};
+		"FB640DA7118FFAF78BD8BD5E" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Text/RegexLiteral.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"4EFBCFF3A702371B6FE24C7C" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "FB640DA7118FFAF78BD8BD5E";
+		};
+		"2CD3CACF87AB7B4914962BCB" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Text/Syntax.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"904A11563A19F7A00C3582C3" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "2CD3CACF87AB7B4914962BCB";
+		};
+		"A1FB38884275BD4DE2F5A1B6" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				"947FABAF2825E6DB658CDCA7",
+				"230B2F5782E7AFCFF21563AC",
+				"BF85CAA9E486461475E474B3",
+				"245FE4F22A0CE1CD5CE4EF57",
+				"C030B7D2AD66D52F69E754C5",
+				"562F181FB651C53CC865F2D8",
+				"51507094103D07E53961CCDF",
+				"1CB14EDEF94FCCA05A1797F7",
+				"3906F37DA46372CA323D058D",
+				"4E32F1A3BAC7F209237F19A1",
+				"89B85E79BEB64FE36D24740F",
+				"1FEB3F6A48C9E816697D6AD6",
+				"885DE950DB7E52AFB2AB480E",
+				"CDD959BC14877DC0D68017CF",
+				"545D44988348FE61A7F7E0A2",
+				"055C3D540414773786AC526D",
+				"7BFF98A81D79BD641D37F0BF",
+				"8CD7F50C67D6E11BFFF109D5",
+				"01B838A1A3BBCD2806245401",
+				"5E0B95D29E8011EE578DC97E",
+				"382244652F30FFF4D86142CF",
+				"B067C6C226A34C844ADF8BF8",
+				"4E3E0A6FCA83095DCE7BEC7D",
+				"5E179FC0D45020473EAF29F3",
+				"AC686F43342E9263D06AC2B8",
+				"957D41FCC3E4B9DB0735E62D",
+				"797EA799965C33210DE454FE",
+				"164394B7320B127FF22F509E",
+				"BD67D257E19901C1D935555B",
+				"6E7E1969A77D9CED3D57FF80",
+				"4A92B076A79578B5A06C82AB",
+				"BD006930954989BCC27083B9",
+				"C36B34D28C95AD0371A59F08",
+				"6CB83B8975132D16C8046F92",
+				"669116967C8FC1FDFE7F381D",
+				"4EFBCFF3A702371B6FE24C7C",
+				"904A11563A19F7A00C3582C3",
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"562B76B23AB6E05B7AC3BE3D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "669A012A12A1F2A99AD17919";
+		};
+		"5D1A25C27429BB37772000C7" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				"562B76B23AB6E05B7AC3BE3D",
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"1B75D3A6A2590342D3FCAE79" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SDKROOT" = "iphoneos";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "16.0";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"SWIFT_VERSION" = "5.0";
+				"SWIFT_STRICT_CONCURRENCY" = "minimal";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu11";
+				"CLANG_CXX_LANGUAGE_STANDARD" = "c++17";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "";
+				"COPY_PHASE_STRIP" = "NO";
+				"LM_SKIP_METADATA_EXTRACTION" = "YES";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "NO";
+				"ROAMTTY_APP_GROUP_ENABLED" = "NO";
+				"ROAMTTY_ENTITLEMENTS" = "App/Support/Development.entitlements";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited) DEBUG";
+				"HEADER_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/include",
+				);
+				"LIBRARY_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/lib",
+				);
+				"SWIFT_INCLUDE_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				"OTHER_LDFLAGS" = (
+					"$(inherited)",
+					"-lssh2",
+					"-lcrypto",
+					"-lz",
+					"-lsqlite3",
+				);
+				"SKIP_INSTALL" = "YES";
+				"DEFINES_MODULE" = "YES";
+				"SWIFT_INSTALL_OBJC_HEADER" = "NO";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"MACH_O_TYPE" = "staticlib";
+				"CODE_SIGNING_ALLOWED" = "NO";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"GCC_OPTIMIZATION_LEVEL" = "0";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"ONLY_ACTIVE_ARCH" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"6444D19A94A4126FAD7765A8" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SDKROOT" = "iphoneos";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "16.0";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"SWIFT_VERSION" = "5.0";
+				"SWIFT_STRICT_CONCURRENCY" = "minimal";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu11";
+				"CLANG_CXX_LANGUAGE_STANDARD" = "c++17";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "";
+				"COPY_PHASE_STRIP" = "NO";
+				"LM_SKIP_METADATA_EXTRACTION" = "YES";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "NO";
+				"ROAMTTY_APP_GROUP_ENABLED" = "NO";
+				"ROAMTTY_ENTITLEMENTS" = "App/Support/Development.entitlements";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited)";
+				"HEADER_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/include",
+				);
+				"LIBRARY_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/lib",
+				);
+				"SWIFT_INCLUDE_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				"OTHER_LDFLAGS" = (
+					"$(inherited)",
+					"-lssh2",
+					"-lcrypto",
+					"-lz",
+					"-lsqlite3",
+				);
+				"SKIP_INSTALL" = "YES";
+				"DEFINES_MODULE" = "YES";
+				"SWIFT_INSTALL_OBJC_HEADER" = "NO";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"MACH_O_TYPE" = "staticlib";
+				"CODE_SIGNING_ALLOWED" = "NO";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+				"SWIFT_COMPILATION_MODE" = "wholemodule";
+			};
+			"name" = "Release";
+		};
+		"AB054A9926490DA5C31F600F" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"1B75D3A6A2590342D3FCAE79",
+				"6444D19A94A4126FAD7765A8",
+			);
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"6563786E1781964CDA1ED883" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "244210E48437B6556980A702";
+			"proxyType" = "1";
+			"remoteGlobalIDString" = "17CB739106A4D48F677BA476";
+			"remoteInfo" = "CNative";
+		};
+		"A65DE427A06A7479D455FA1D" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "17CB739106A4D48F677BA476";
+			"targetProxy" = "6563786E1781964CDA1ED883";
+		};
+		"F63A8345997D082BD812A2ED" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "AB054A9926490DA5C31F600F";
+			"buildPhases" = (
+				"A1FB38884275BD4DE2F5A1B6",
+				"5D1A25C27429BB37772000C7",
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+				"A65DE427A06A7479D455FA1D",
+			);
+			"name" = "RoamttyCore";
+			"productName" = "RoamttyCore";
+			"productReference" = "9D137293EAD0820387268946";
+			"productType" = "com.apple.product-type.library.static";
+		};
+		"7C26E08C1C0DA8DF118B38E5" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyTransport/Mosh/MoshBootstrap.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"82764BFE7250300DD2277BBD" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "7C26E08C1C0DA8DF118B38E5";
+		};
+		"222C3CC93EAC0C2D4CB6B3AC" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyTransport/Mosh/MoshProtocol.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"8F47DC11C2728B16A089A757" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "222C3CC93EAC0C2D4CB6B3AC";
+		};
+		"5592D8486B70ADB6F754D2F5" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyTransport/Mosh/MoshState.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"442D9AC1860985477E404D70" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "5592D8486B70ADB6F754D2F5";
+		};
+		"75C20B438DEA5317313E2E45" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyTransport/Mosh/MoshTransport.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"D6843DF98CF8F4417BDAE6BF" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "75C20B438DEA5317313E2E45";
+		};
+		"9A73CEC65694F9A246D6655F" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyTransport/SSH/PortTunnel.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"CA9E5F129652B82939602F5C" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "9A73CEC65694F9A246D6655F";
+		};
+		"024B9FECFDDD6BB5F3A73CAC" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyTransport/SSH/SFTP.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"857D5FA805A647D685556457" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "024B9FECFDDD6BB5F3A73CAC";
+		};
+		"D8BDC8BC630C1BAF30F87DB0" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyTransport/SSH/SSHConnection.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"FAF46B36F835F6836CBEDBFA" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "D8BDC8BC630C1BAF30F87DB0";
+		};
+		"38D68A97E078A8F2A64DF395" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyTransport/SSH/SSHExecStream.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"A8CFB34D735C4C7878EAC26C" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "38D68A97E078A8F2A64DF395";
+		};
+		"F4B54B0336DEDE94FFC7328E" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyTransport/SSH/TransferCancellation.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"C854933133C15FAC77DC0DCB" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "F4B54B0336DEDE94FFC7328E";
+		};
+		"80DCF09D8290671986268D4C" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				"82764BFE7250300DD2277BBD",
+				"8F47DC11C2728B16A089A757",
+				"442D9AC1860985477E404D70",
+				"D6843DF98CF8F4417BDAE6BF",
+				"CA9E5F129652B82939602F5C",
+				"857D5FA805A647D685556457",
+				"FAF46B36F835F6836CBEDBFA",
+				"A8CFB34D735C4C7878EAC26C",
+				"C854933133C15FAC77DC0DCB",
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"E9069BFC0D45CABB89108719" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "9D137293EAD0820387268946";
+		};
+		"AB3EBFF1344E2E9C1F1A5683" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "669A012A12A1F2A99AD17919";
+		};
+		"C93A9B100E3BBA8762926D8F" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "1698D31B32D16A3C5C4BD473";
+		};
+		"0D584A6BEAB1E66C5C1F391C" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				"E9069BFC0D45CABB89108719",
+				"AB3EBFF1344E2E9C1F1A5683",
+				"C93A9B100E3BBA8762926D8F",
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"B86345E728A753E20E9B0FE8" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SDKROOT" = "iphoneos";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "16.0";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"SWIFT_VERSION" = "5.0";
+				"SWIFT_STRICT_CONCURRENCY" = "minimal";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu11";
+				"CLANG_CXX_LANGUAGE_STANDARD" = "c++17";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "";
+				"COPY_PHASE_STRIP" = "NO";
+				"LM_SKIP_METADATA_EXTRACTION" = "YES";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "NO";
+				"ROAMTTY_APP_GROUP_ENABLED" = "NO";
+				"ROAMTTY_ENTITLEMENTS" = "App/Support/Development.entitlements";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited) DEBUG";
+				"HEADER_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/include",
+				);
+				"LIBRARY_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/lib",
+				);
+				"SWIFT_INCLUDE_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				"OTHER_LDFLAGS" = (
+					"$(inherited)",
+					"-lssh2",
+					"-lcrypto",
+					"-lz",
+					"-lsqlite3",
+				);
+				"SKIP_INSTALL" = "YES";
+				"DEFINES_MODULE" = "YES";
+				"SWIFT_INSTALL_OBJC_HEADER" = "NO";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"MACH_O_TYPE" = "staticlib";
+				"CODE_SIGNING_ALLOWED" = "NO";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"GCC_OPTIMIZATION_LEVEL" = "0";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"ONLY_ACTIVE_ARCH" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"F5B3685F7279FF9191812E78" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SDKROOT" = "iphoneos";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "16.0";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"SWIFT_VERSION" = "5.0";
+				"SWIFT_STRICT_CONCURRENCY" = "minimal";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu11";
+				"CLANG_CXX_LANGUAGE_STANDARD" = "c++17";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "";
+				"COPY_PHASE_STRIP" = "NO";
+				"LM_SKIP_METADATA_EXTRACTION" = "YES";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "NO";
+				"ROAMTTY_APP_GROUP_ENABLED" = "NO";
+				"ROAMTTY_ENTITLEMENTS" = "App/Support/Development.entitlements";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited)";
+				"HEADER_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/include",
+				);
+				"LIBRARY_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/lib",
+				);
+				"SWIFT_INCLUDE_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				"OTHER_LDFLAGS" = (
+					"$(inherited)",
+					"-lssh2",
+					"-lcrypto",
+					"-lz",
+					"-lsqlite3",
+				);
+				"SKIP_INSTALL" = "YES";
+				"DEFINES_MODULE" = "YES";
+				"SWIFT_INSTALL_OBJC_HEADER" = "NO";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"MACH_O_TYPE" = "staticlib";
+				"CODE_SIGNING_ALLOWED" = "NO";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+				"SWIFT_COMPILATION_MODE" = "wholemodule";
+			};
+			"name" = "Release";
+		};
+		"EF6FFB1038D3DB7D3E885CF4" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"B86345E728A753E20E9B0FE8",
+				"F5B3685F7279FF9191812E78",
+			);
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"58C6B156803B973C55AA1278" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "244210E48437B6556980A702";
+			"proxyType" = "1";
+			"remoteGlobalIDString" = "F63A8345997D082BD812A2ED";
+			"remoteInfo" = "RoamttyCore";
+		};
+		"7CE379BC5B1083911C689CD4" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "F63A8345997D082BD812A2ED";
+			"targetProxy" = "58C6B156803B973C55AA1278";
+		};
+		"FD65B8288611C3EEA5A38BDE" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "244210E48437B6556980A702";
+			"proxyType" = "1";
+			"remoteGlobalIDString" = "17CB739106A4D48F677BA476";
+			"remoteInfo" = "CNative";
+		};
+		"AFFE03847933086492FB21A4" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "17CB739106A4D48F677BA476";
+			"targetProxy" = "FD65B8288611C3EEA5A38BDE";
+		};
+		"D9C6138E53AE4FA36880ADCF" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "244210E48437B6556980A702";
+			"proxyType" = "1";
+			"remoteGlobalIDString" = "67921D83F12005AC57BD7887";
+			"remoteInfo" = "RoamttyDesktopCore";
+		};
+		"7B324CC69917E65182497BFD" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "67921D83F12005AC57BD7887";
+			"targetProxy" = "D9C6138E53AE4FA36880ADCF";
+		};
+		"C4625DCC4D38B106280750A0" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "EF6FFB1038D3DB7D3E885CF4";
+			"buildPhases" = (
+				"80DCF09D8290671986268D4C",
+				"0D584A6BEAB1E66C5C1F391C",
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+				"7CE379BC5B1083911C689CD4",
+				"AFFE03847933086492FB21A4",
+				"7B324CC69917E65182497BFD",
+			);
+			"name" = "RoamttyTransport";
+			"productName" = "RoamttyTransport";
+			"productReference" = "963E5982DADA5BA041DD36E5";
+			"productType" = "com.apple.product-type.library.static";
+		};
+		"C17D876C1AEF3D85F4DE9A7B" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyDesktopCore/AudioJitter.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"3F4D5C6D9628B15D582F970F" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C17D876C1AEF3D85F4DE9A7B";
+		};
+		"7143C377557812A60016CDCE" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyDesktopCore/Bytes.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"5B56FC2FE5D5553DBE39C361" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "7143C377557812A60016CDCE";
+		};
+		"9024D0B1E705D9201188720F" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyDesktopCore/DesktopGestures.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"1960C8CA70758188DCE9ABE7" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "9024D0B1E705D9201188720F";
+		};
+		"9F678F1890FA8F8D8BC2CE4E" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyDesktopCore/DesktopHost.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"60E57B7F4EA83B7D1D658A7E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "9F678F1890FA8F8D8BC2CE4E";
+		};
+		"C308B9079A549ACAFE14007B" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyDesktopCore/DesktopPageModel.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"E49242D5611CDF69D504DF56" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C308B9079A549ACAFE14007B";
+		};
+		"3BD9B0D18C05A7BCEF52DF8C" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyDesktopCore/DesktopPluginInstaller.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"758F5AAD9C18F6AF53CA0022" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "3BD9B0D18C05A7BCEF52DF8C";
+		};
+		"C98ABC51B61EF1EC84EED5A2" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyDesktopCore/DesktopProtocol.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"D26F2BF62D1C7D298BF9465C" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C98ABC51B61EF1EC84EED5A2";
+		};
+		"9F8DFDFC2283FA04515B24AF" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyDesktopCore/DesktopSampleBuffer.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"BAB24D5F75A21E9F2676D821" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "9F8DFDFC2283FA04515B24AF";
+		};
+		"CE9BA8BA2A37F5CCF917E751" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyDesktopCore/DesktopSession.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"FBF8E68E4A9AE31D86BAECBD" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "CE9BA8BA2A37F5CCF917E751";
+		};
+		"CAB18B1E7042A707B60AC358" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyDesktopCore/DesktopState.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"A1146D9AF1EF7FB3DB85367C" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "CAB18B1E7042A707B60AC358";
+		};
+		"0DE2980E73070D8E0734BE8D" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyDesktopCore/DesktopStatsText.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"0066DC03235B3C8A518732FD" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "0DE2980E73070D8E0734BE8D";
+		};
+		"DD3FBBB87454B55ACE58AC6F" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyDesktopCore/DesktopText.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"F6805C5A49ABEAA1EB2F09DC" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "DD3FBBB87454B55ACE58AC6F";
+		};
+		"38910070A7182C2D1E88396A" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyDesktopCore/DesktopVideoDecoder.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"32EAC6B151B8A50373405B86" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "38910070A7182C2D1E88396A";
+		};
+		"BD474F7CCE67011ACAB14F43" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyDesktopCore/Fec.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"58A15D234884F45CD23BE3E4" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "BD474F7CCE67011ACAB14F43";
+		};
+		"A5A9162E9BF9AE61C3EF96EF" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyDesktopCore/Gzip.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"8AF10F8B75756AEBB9B81B34" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "A5A9162E9BF9AE61C3EF96EF";
+		};
+		"F7DFA4B871C63F0936775C7A" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyDesktopCore/H264.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"E5E51579EA44F6A035059739" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "F7DFA4B871C63F0936775C7A";
+		};
+		"49EA6B4325FB139A90B6D6D6" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyDesktopCore/HidUsage.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"0CAAF1F71ADDE5162583E2C8" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "49EA6B4325FB139A90B6D6D6";
+		};
+		"92ECD6A0F533B5871C577065" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyDesktopCore/LatencyMeter.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"EB4DEC948846FE29B01C7FAE" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "92ECD6A0F533B5871C577065";
+		};
+		"214A7AC0F6382E8EE9E9A072" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyDesktopCore/OverlayTouch.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"6DC6B48436D00D6707500F92" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "214A7AC0F6382E8EE9E9A072";
+		};
+		"F2672ED5BBF58576E44F8C0E" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyDesktopCore/PluginManifest.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"1EFF663F82683B86DE60547F" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "F2672ED5BBF58576E44F8C0E";
+		};
+		"06553FE0040153E107D34809" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyDesktopCore/UdpLink.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"1E3F7B7CB8FDF532AC3BCFA8" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "06553FE0040153E107D34809";
+		};
+		"2920228034DC1736EC9D27A2" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyDesktopCore/UdpSocketTransport.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"D699A753B79EABE070C27E1A" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "2920228034DC1736EC9D27A2";
+		};
+		"94A275D205A0E28ED2D2601E" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyDesktopCore/UdpWire.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"5033FC126D0FE363C417B6C0" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "94A275D205A0E28ED2D2601E";
+		};
+		"7721621C46A1D0D416C5EE10" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				"3F4D5C6D9628B15D582F970F",
+				"5B56FC2FE5D5553DBE39C361",
+				"1960C8CA70758188DCE9ABE7",
+				"60E57B7F4EA83B7D1D658A7E",
+				"E49242D5611CDF69D504DF56",
+				"758F5AAD9C18F6AF53CA0022",
+				"D26F2BF62D1C7D298BF9465C",
+				"BAB24D5F75A21E9F2676D821",
+				"FBF8E68E4A9AE31D86BAECBD",
+				"A1146D9AF1EF7FB3DB85367C",
+				"0066DC03235B3C8A518732FD",
+				"F6805C5A49ABEAA1EB2F09DC",
+				"32EAC6B151B8A50373405B86",
+				"58A15D234884F45CD23BE3E4",
+				"8AF10F8B75756AEBB9B81B34",
+				"E5E51579EA44F6A035059739",
+				"0CAAF1F71ADDE5162583E2C8",
+				"EB4DEC948846FE29B01C7FAE",
+				"6DC6B48436D00D6707500F92",
+				"1EFF663F82683B86DE60547F",
+				"1E3F7B7CB8FDF532AC3BCFA8",
+				"D699A753B79EABE070C27E1A",
+				"5033FC126D0FE363C417B6C0",
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"D70A59B87B1F16165E843B48" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"16A3E14EF6ADBF56D3827904" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SDKROOT" = "iphoneos";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "16.0";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"SWIFT_VERSION" = "5.0";
+				"SWIFT_STRICT_CONCURRENCY" = "minimal";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu11";
+				"CLANG_CXX_LANGUAGE_STANDARD" = "c++17";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "";
+				"COPY_PHASE_STRIP" = "NO";
+				"LM_SKIP_METADATA_EXTRACTION" = "YES";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "NO";
+				"ROAMTTY_APP_GROUP_ENABLED" = "NO";
+				"ROAMTTY_ENTITLEMENTS" = "App/Support/Development.entitlements";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited) DEBUG";
+				"HEADER_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/include",
+				);
+				"LIBRARY_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/lib",
+				);
+				"SWIFT_INCLUDE_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				"OTHER_LDFLAGS" = (
+					"$(inherited)",
+					"-lssh2",
+					"-lcrypto",
+					"-lz",
+					"-lsqlite3",
+				);
+				"SKIP_INSTALL" = "YES";
+				"DEFINES_MODULE" = "YES";
+				"SWIFT_INSTALL_OBJC_HEADER" = "NO";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"MACH_O_TYPE" = "staticlib";
+				"CODE_SIGNING_ALLOWED" = "NO";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"GCC_OPTIMIZATION_LEVEL" = "0";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"ONLY_ACTIVE_ARCH" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"B65EB0E800D9A3E88AE3E658" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SDKROOT" = "iphoneos";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "16.0";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"SWIFT_VERSION" = "5.0";
+				"SWIFT_STRICT_CONCURRENCY" = "minimal";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu11";
+				"CLANG_CXX_LANGUAGE_STANDARD" = "c++17";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "";
+				"COPY_PHASE_STRIP" = "NO";
+				"LM_SKIP_METADATA_EXTRACTION" = "YES";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "NO";
+				"ROAMTTY_APP_GROUP_ENABLED" = "NO";
+				"ROAMTTY_ENTITLEMENTS" = "App/Support/Development.entitlements";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited)";
+				"HEADER_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/include",
+				);
+				"LIBRARY_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/lib",
+				);
+				"SWIFT_INCLUDE_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				"OTHER_LDFLAGS" = (
+					"$(inherited)",
+					"-lssh2",
+					"-lcrypto",
+					"-lz",
+					"-lsqlite3",
+				);
+				"SKIP_INSTALL" = "YES";
+				"DEFINES_MODULE" = "YES";
+				"SWIFT_INSTALL_OBJC_HEADER" = "NO";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"MACH_O_TYPE" = "staticlib";
+				"CODE_SIGNING_ALLOWED" = "NO";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+				"SWIFT_COMPILATION_MODE" = "wholemodule";
+			};
+			"name" = "Release";
+		};
+		"674CBB01F6EFAFE7FEDC8EB0" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"16A3E14EF6ADBF56D3827904",
+				"B65EB0E800D9A3E88AE3E658",
+			);
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"67921D83F12005AC57BD7887" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "674CBB01F6EFAFE7FEDC8EB0";
+			"buildPhases" = (
+				"7721621C46A1D0D416C5EE10",
+				"D70A59B87B1F16165E843B48",
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+			);
+			"name" = "RoamttyDesktopCore";
+			"productName" = "RoamttyDesktopCore";
+			"productReference" = "1698D31B32D16A3C5C4BD473";
+			"productType" = "com.apple.product-type.library.static";
+		};
+		"E253649D0644962204A856CE" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Application/RoamttyApp.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"1A614097A9E46C3DB794D778" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "E253649D0644962204A856CE";
+		};
+		"8AADF96DA52A4385487B76A0" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Application/StartupSplash.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"C7716B50DC300605E10A3F99" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "8AADF96DA52A4385487B76A0";
+		};
+		"5840B97A1E2E2F0D654FAFB9" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Application/TypeAliases.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"DAC524378CE113C35523C793" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "5840B97A1E2E2F0D654FAFB9";
+		};
+		"577C2081524F6D31E90EF88F" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Debug/AppLifecycleValidation.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"FCBAB353D5F0BC683B5E8229" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "577C2081524F6D31E90EF88F";
+		};
+		"E73517CFB108CBC79DFA0A3B" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Debug/AppModel+Fixtures.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"079C6550A89A5AD9361E6147" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "E73517CFB108CBC79DFA0A3B";
+		};
+		"404F0694E3CD88C22A958250" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Debug/DesktopMemoryValidation.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"3D844E0D227A8063160AC9D1" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "404F0694E3CD88C22A958250";
+		};
+		"0C1A6AD0AC6F4BD341261786" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Debug/DeviceValidation.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"5F29D1EC30498895BFD1E919" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "0C1A6AD0AC6F4BD341261786";
+		};
+		"C4719BB7A40C69B4BB90949C" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Debug/MemoryValidation.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"9107B4B12E6AE7BF68C39086" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C4719BB7A40C69B4BB90949C";
+		};
+		"1C0F55BC984A00E2FE1CB0B1" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/DesignSystem/AppSearchField.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"44F479433619B4F5A7468B09" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "1C0F55BC984A00E2FE1CB0B1";
+		};
+		"9B08EBA3F490BF692ECC1135" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/DesignSystem/ButtonStyles.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"9699B4480291573D8C2E930D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "9B08EBA3F490BF692ECC1135";
+		};
+		"A59D7221C7F9570DE814F76C" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/DesignSystem/Components.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"179E50ED71330E6075745B84" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "A59D7221C7F9570DE814F76C";
+		};
+		"6D5A4D6FB7EBCF3D12515554" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/DesignSystem/FormField.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"71E675779CEE10E8FB4A4670" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "6D5A4D6FB7EBCF3D12515554";
+		};
+		"40EF96F863EA1470C5ED50DA" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/DesignSystem/Formatting.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"43250CA606BA46439E3DDB9A" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "40EF96F863EA1470C5ED50DA";
+		};
+		"1659750E2A07027522D5D3BC" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/DesignSystem/GhostArt.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"051E6D6AC23A69CBE09943BD" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "1659750E2A07027522D5D3BC";
+		};
+		"46CE8670660FCE7C9E059E3F" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/DesignSystem/NoticeBanner.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"91E9B281EFCC2958D176D28C" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "46CE8670660FCE7C9E059E3F";
+		};
+		"AF11A6F1A8B8F9621BB73A4E" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/DesignSystem/Palette.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"C6EA69FAF18B124E496A541E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "AF11A6F1A8B8F9621BB73A4E";
+		};
+		"B0A8A779DAD9D6D35AD13587" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/DesignSystem/ViewModifiers.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"8B46ECD41A1E511E040ABE89" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "B0A8A779DAD9D6D35AD13587";
+		};
+		"7672C1D1E26CB56E4D1FA8A3" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Authentication/AuthenticationOverlay.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"C30972585B0E368F1789B3FC" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "7672C1D1E26CB56E4D1FA8A3";
+		};
+		"F8750F867E3429D175D3957A" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Desktop/DesktopAudioPlayer.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"1DDA4A25308A02113138E6C0" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "F8750F867E3429D175D3957A";
+		};
+		"2C6A5B7E10DADC4DBC5248D9" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Desktop/DesktopCardButton.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"4B43049E682EB6241D9323A4" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "2C6A5B7E10DADC4DBC5248D9";
+		};
+		"FD95E4BA05DE0B8F82CBC8C2" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Desktop/DesktopController.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"6A935FEDBFF81FE7283D1430" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "FD95E4BA05DE0B8F82CBC8C2";
+		};
+		"AF728D00D79479C342578648" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Desktop/DesktopGestureView.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"4241F59F15110DC570B41269" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "AF728D00D79479C342578648";
+		};
+		"B3AFEB07524685A45CC93F10" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Desktop/DesktopInputViews.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"D4CABE2FEFBE9E39A1FE0247" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "B3AFEB07524685A45CC93F10";
+		};
+		"E141EFA8404E93DBC6F842A6" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Desktop/DesktopPage.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"D5E10AFFB2A511263FEF5585" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "E141EFA8404E93DBC6F842A6";
+		};
+		"F6BA3F722378544A63AD3274" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Desktop/DesktopStatsBox.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"3FDC8BA58EA11ECED1555E13" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "F6BA3F722378544A63AD3274";
+		};
+		"1ADA88A30302E2D195D883DE" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Desktop/DesktopStatusOverlay.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"69119A85CFCB1484B3A9EA74" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "1ADA88A30302E2D195D883DE";
+		};
+		"6DF5BD7A41ABA93A5B3BCC6A" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Desktop/DesktopThumbnails.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"EA1B54AB3AB6F05C5560088E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "6DF5BD7A41ABA93A5B3BCC6A";
+		};
+		"12E6B62471A619BBA53C6A1E" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Desktop/VideoToolboxDisplay.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"760C7417749DC948376206DF" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "12E6B62471A619BBA53C6A1E";
+		};
+		"12DB3B6F296F1EB501DF00A2" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Files/DocumentSharing.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"C2380531D47BE2DCA43010BF" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "12DB3B6F296F1EB501DF00A2";
+		};
+		"8F958728F8123D720A6D9DCE" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Files/FileBrowserScreen.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"3382BF10933A5569D49CD02E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "8F958728F8123D720A6D9DCE";
+		};
+		"3BE3A7F9849142C8474BB817" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Files/FileIcons.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"60F3BCFA90F9D214839000F7" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "3BE3A7F9849142C8474BB817";
+		};
+		"87670F7BED7A11AE57E43EB1" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Files/FilePreviewScreen.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"B1A91E5F88B13703D0928823" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "87670F7BED7A11AE57E43EB1";
+		};
+		"2B29743BE80BD90DF11BEB3D" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Files/FileTransferModel.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"E7E9E5D09D1F5784DDFF1857" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "2B29743BE80BD90DF11BEB3D";
+		};
+		"40AA4359756DB6C26027B26A" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Files/MarkdownImagePipeline.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"09B35AFD659A171529340D2D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "40AA4359756DB6C26027B26A";
+		};
+		"232194980784D32A81AEA7CC" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Files/ShareUploadHostPicker.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"6A6E75D9B7D5DEEA9CBBE1CA" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "232194980784D32A81AEA7CC";
+		};
+		"548BBB2D817D5D81219BCB59" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Files/TerminalFileActions.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"08720E265443354DB99147B5" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "548BBB2D817D5D81219BCB59";
+		};
+		"6ABFBDE6C434349A20452FAB" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Files/TransferScreen.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"297B48B5A7103B1508062E56" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "6ABFBDE6C434349A20452FAB";
+		};
+		"AB1934EB1BB3426F4C30617C" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Home/HomeComponents.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"278ADF59C1834BB2897D51EA" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "AB1934EB1BB3426F4C30617C";
+		};
+		"0BC928A5F4111A1B41E94DCC" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Home/HomeHostsTab.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"D737AD0A104ADA9854D1E6A6" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "0BC928A5F4111A1B41E94DCC";
+		};
+		"B8DA06947B6007790A72E9D0" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Home/HomeScreen.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"B83D38462058A8701C580D9B" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "B8DA06947B6007790A72E9D0";
+		};
+		"74EAEC1A32C5CD5D7E2751A9" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Home/HomeSessionsTab.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"045D50640ABCEB7C25C142EC" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "74EAEC1A32C5CD5D7E2751A9";
+		};
+		"1C67C15CDD4297FB60523772" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Home/SessionRow.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"2DF747BDFF52C3123C4FD472" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "1C67C15CDD4297FB60523772";
+		};
+		"9A4D39FDF1DBC5DDD2DCBE20" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Hosts/HostDetailLandscape.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"7C0A743FD27D4B5B425200BA" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "9A4D39FDF1DBC5DDD2DCBE20";
+		};
+		"0D972A6AAF9218B187107B7C" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Hosts/HostDetailScreen.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"7EAE1880C6F8EBDC477659C7" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "0D972A6AAF9218B187107B7C";
+		};
+		"C66CFA1185C0D4BC54595A36" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Hosts/HostEditorScreen.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"F8D55F6E2462E98F9AB1CE56" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C66CFA1185C0D4BC54595A36";
+		};
+		"6763ECB9A2D2680E90647299" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Hosts/HostPortsSection.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"53953DD8C19174AD7A9B857B" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "6763ECB9A2D2680E90647299";
+		};
+		"F4BBB2C551938AB82E7A8CC2" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Hosts/HostSystemMark.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"5A24E9ADB2C0E41987F9C846" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "F4BBB2C551938AB82E7A8CC2";
+		};
+		"2B4D81A451F2C2F4C06593FE" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Hosts/MetricsPanel.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"4774991CEC8A287AA397D647" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "2B4D81A451F2C2F4C06593FE";
+		};
+		"E49CAE7E3B221BFE44F7FFDD" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Hosts/PluginsScreen.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"512D907810C1D7686EE834F1" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "E49CAE7E3B221BFE44F7FFDD";
+		};
+		"FCFA99D4F3AFBA04117A9168" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Hosts/PortPreviewScreen.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"0EB68E34DA4172F08FCEDBA2" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "FCFA99D4F3AFBA04117A9168";
+		};
+		"C531E153BD9EF22F189D146C" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Hosts/ReachabilityLabel.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"42629DE27C247B42EA78C8E4" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C531E153BD9EF22F189D146C";
+		};
+		"5899D0E459BD3A8E0F3A8D07" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Sessions/ContinueSessionScreen.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"47E32FA1F3D2513BC03A0399" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "5899D0E459BD3A8E0F3A8D07";
+		};
+		"BE0B584D9D01118CA151F966" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Sessions/LaunchScreen.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"2DA4958E309165A0A25229CB" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "BE0B584D9D01118CA151F966";
+		};
+		"C7EC58EF90FA0E8EAFC40B1B" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Sessions/NewSessionSheet.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"B9B4B82A3060BE90BF07254E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C7EC58EF90FA0E8EAFC40B1B";
+		};
+		"C33D7B00423C861F7AA92C87" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Sessions/SessionComponents.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"0BCE089EDA57321580CA4DAF" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C33D7B00423C861F7AA92C87";
+		};
+		"12B61485031CCAE944A47479" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Sessions/TmuxSessionList.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"EC596754A9F566A767AA3CCB" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "12B61485031CCAE944A47479";
+		};
+		"DC6EF45FA30D3B84E77F41ED" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Settings/AboutScreen.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"DB23202EEF4C694AC04B3589" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "DC6EF45FA30D3B84E77F41ED";
+		};
+		"75FF316EAAADDD4FAB76B775" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Settings/Fonts/CustomFontStore.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"E869E70709DE4E1C3AD20ACB" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "75FF316EAAADDD4FAB76B775";
+		};
+		"9FEA86E4A1264E1A702678FC" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Settings/Fonts/FontCatalog.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"5B374F47D3E4A7102FBFAB65" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "9FEA86E4A1264E1A702678FC";
+		};
+		"F39A53C52C3F6F50565D0D2D" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Settings/HelpScreen.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"63F59F9FC07850B10CD749B3" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "F39A53C52C3F6F50565D0D2D";
+		};
+		"30469A9FC259E7AFCB3FD56D" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Settings/SettingsScreen.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"FC310D1F477EB2330168CE81" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "30469A9FC259E7AFCB3FD56D";
+		};
+		"9F54F99C3AF52D8AEA111C2B" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Terminal/Input/CursorRowButtons.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"FAFB501C2F3F40C39D91218F" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "9F54F99C3AF52D8AEA111C2B";
+		};
+		"F54B1190BF7A1A558907F83A" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Terminal/Input/DraftEditor.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"C58972A00ACF8E1E91EF7CE6" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "F54B1190BF7A1A558907F83A";
+		};
+		"D7BDD82F29C03C86EA902D4D" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Terminal/Input/GhostShortcuts.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"5A08E11F93C061E6E8A30699" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "D7BDD82F29C03C86EA902D4D";
+		};
+		"CF36B2E8B5AEE4AB5CE8E80C" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Terminal/Input/TerminalInteraction.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"95CBC4B3BA908B17930DDBF2" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "CF36B2E8B5AEE4AB5CE8E80C";
+		};
+		"81502EBD6DFAB4639BE97DD3" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Terminal/Rendering/SwiftTermScrollback.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"15EC1BD783AA420FEB4D2C17" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "81502EBD6DFAB4639BE97DD3";
+		};
+		"A6E1151EE72EE874BA069958" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Terminal/Rendering/SwiftTermTextGrid.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"313ECBE9F67E8DADF14782EA" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "A6E1151EE72EE874BA069958";
+		};
+		"67BC99ED81EBE184E0FDC319" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Terminal/Rendering/SwiftTermWideCells.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"7EEE72D12819CEBA5BDCD09D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "67BC99ED81EBE184E0FDC319";
+		};
+		"FC324873FC503F4693580CE0" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Terminal/Rendering/TerminalLinkPress.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"7398D97E49965D63F0F107E0" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "FC324873FC503F4693580CE0";
+		};
+		"EC3F3D2734191003A108AD1E" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Terminal/Rendering/TerminalViews.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"4A91773807B7E0AFADE95F33" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "EC3F3D2734191003A108AD1E";
+		};
+		"7D862FF64844B700E603C7C8" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Terminal/Runtime/SessionRemote.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"8256BF1C2260D5DF0FF779B2" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "7D862FF64844B700E603C7C8";
+		};
+		"5721B2953E9025CA3F6500E7" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Terminal/Runtime/SessionRuntime+Agent.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"6F766D1DF579E50B9293CB70" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "5721B2953E9025CA3F6500E7";
+		};
+		"C5BC036265A99B56D5A01710" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Terminal/Runtime/SessionRuntime+Gestures.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"A297556AF1105267A45B57AD" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C5BC036265A99B56D5A01710";
+		};
+		"6334EFCE2E3B20800270AE13" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Terminal/Runtime/SessionRuntime+Input.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"0CB9DD83C07ED24FA0ED6B97" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "6334EFCE2E3B20800270AE13";
+		};
+		"30F04D9440BCB9E5848B74BE" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Terminal/Runtime/SessionRuntime+TerminalDelegate.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"47D648F6F44BDBFD75E3854E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "30F04D9440BCB9E5848B74BE";
+		};
+		"57CC687143903F66CF4E3657" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Terminal/Runtime/SessionRuntime.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"5557D218EE7821DCB68D4449" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "57CC687143903F66CF4E3657";
+		};
+		"C57107BED9387B656A3EC1DB" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Terminal/Screen/CommonCommandsSheet.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"CCCA49E03B29A52B0A5169B0" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C57107BED9387B656A3EC1DB";
+		};
+		"14FEB80F67F8624B0AE8276C" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Terminal/Screen/TerminalNotice.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"C5FC51E6EA8BCD5FEBB6FEFA" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "14FEB80F67F8624B0AE8276C";
+		};
+		"2D014E603245B00F01AED3E8" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Features/Terminal/Screen/TerminalScreen.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"6AC846F53773FDFBF0FA574E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "2D014E603245B00F01AED3E8";
+		};
+		"8D0D86AAD40EC80D68CBB5F2" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Model/AppModel+Connections.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"72BF447BBEE0540CF4121741" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "8D0D86AAD40EC80D68CBB5F2";
+		};
+		"7D5228076E00B068894DFD80" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Model/AppModel+Desktop.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"99698B244948659734AD9930" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "7D5228076E00B068894DFD80";
+		};
+		"B46B7B3A820F0BA4AF92ADD8" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Model/AppModel+Hosts.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"00653FBA72F928F3E239D70D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "B46B7B3A820F0BA4AF92ADD8";
+		};
+		"65C83CC15CB01798303FB913" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Model/AppModel+Monitor.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"A64F621FA42A5B8EC8577189" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "65C83CC15CB01798303FB913";
+		};
+		"982B222189F932DC1A2BF036" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Model/AppModel+Notifications.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"6B8F769331A94D028C406B0B" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "982B222189F932DC1A2BF036";
+		};
+		"0446A1EE9ACBC696C2D24E48" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Model/AppModel+Sessions.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"EE918D000B610A88A8CB35EF" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "0446A1EE9ACBC696C2D24E48";
+		};
+		"38EF7EAA30C7FA08A7FE934B" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Model/AppModel.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"B1677875F9EA18CCC4A05111" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "38EF7EAA30C7FA08A7FE934B";
+		};
+		"15D786BA21D6A9B1FC366057" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Model/AuthenticationPrompts.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"8AE521023B6E3D730C200354" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "15D786BA21D6A9B1FC366057";
+		};
+		"E65BBC7CAEF10FF5389AC123" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Model/HostMonitorState.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"1DC52130F42187242DFF5142" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "E65BBC7CAEF10FF5389AC123";
+		};
+		"60C14E9953D3B87D01D1B0C8" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Model/RemoteConnectionTarget.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"B21BCCBA311C77E92EED2150" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "60C14E9953D3B87D01D1B0C8";
+		};
+		"A39601E243294F7242D757D3" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Navigation/AppRouteDestination.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"9080F654303856BCFD79E5E5" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "A39601E243294F7242D757D3";
+		};
+		"7044CD4EE556982AC52EF617" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Navigation/AppRoutes.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"43FE31B70DF10F4D05C0ED35" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "7044CD4EE556982AC52EF617";
+		};
+		"C05E7651DAC54DEDA0D87685" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Navigation/AppSheetContent.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"73D6838D4A77DF667CCE0468" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C05E7651DAC54DEDA0D87685";
+		};
+		"51C98CDE1F45DF3F9FAA2356" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Navigation/DrawerScreen.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"6539261A34DB1135A52D0207" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "51C98CDE1F45DF3F9FAA2356";
+		};
+		"96C8AD42D649B47E8836D756" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Navigation/InteractivePopGesture.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"52CB89989DDE4D35930F7F42" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "96C8AD42D649B47E8836D756";
+		};
+		"DADE823230C8E3ECCC666E16" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Navigation/RootScreen.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"F2C98F46E87F513CF4DE91F6" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "DADE823230C8E3ECCC666E16";
+		};
+		"7A3FA0B3936A8E0267F8A04B" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Services/AgentNotifier.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"1834C758470B2D750BA6F33E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "7A3FA0B3936A8E0267F8A04B";
+		};
+		"4945D30DB826049A20AB314B" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Services/BackgroundWork.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"960754CB326E8238838DD365" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "4945D30DB826049A20AB314B";
+		};
+		"EC4C008C4F1F0E4A42D53E21" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Services/Diagnostics.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"743DB4EFD34F3A8CC0B09B54" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "EC4C008C4F1F0E4A42D53E21";
+		};
+		"DACDF14B148B60D710793B90" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Services/ReachabilityProbe.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"96E31590497DD5F2463F1D45" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "DACDF14B148B60D710793B90";
+		};
+		"DD8FC09DB204B207B66DA7B8" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Services/SSHConnection+Async.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"1E5E6B100ACE77F830AECC1A" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "DD8FC09DB204B207B66DA7B8";
+		};
+		"52C0E61190107DD201A7D211" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Services/SessionPreferences.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"3CA37FF21651889E6D99B981" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "52C0E61190107DD201A7D211";
+		};
+		"07EC1078D64F2213288D559C" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Services/SharedInbox.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"F2664F6988963FD8EF5C00F8" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "07EC1078D64F2213288D559C";
+		};
+		"275E3DB022CBE6D670178A5A" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Shared/ShareInboxStore.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"1FC050EFE9B74172005CD96C" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "275E3DB022CBE6D670178A5A";
+		};
+		"D513F8D4A0521592F6428607" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Shared/ShareInboxWorker.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"35FF0A10D774AB5B8D1DA8B0" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "D513F8D4A0521592F6428607";
+		};
+		"BD51FD0F287C65ECDF9A9F79" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				"1A614097A9E46C3DB794D778",
+				"C7716B50DC300605E10A3F99",
+				"DAC524378CE113C35523C793",
+				"FCBAB353D5F0BC683B5E8229",
+				"079C6550A89A5AD9361E6147",
+				"3D844E0D227A8063160AC9D1",
+				"5F29D1EC30498895BFD1E919",
+				"9107B4B12E6AE7BF68C39086",
+				"44F479433619B4F5A7468B09",
+				"9699B4480291573D8C2E930D",
+				"179E50ED71330E6075745B84",
+				"71E675779CEE10E8FB4A4670",
+				"43250CA606BA46439E3DDB9A",
+				"051E6D6AC23A69CBE09943BD",
+				"91E9B281EFCC2958D176D28C",
+				"C6EA69FAF18B124E496A541E",
+				"8B46ECD41A1E511E040ABE89",
+				"C30972585B0E368F1789B3FC",
+				"1DDA4A25308A02113138E6C0",
+				"4B43049E682EB6241D9323A4",
+				"6A935FEDBFF81FE7283D1430",
+				"4241F59F15110DC570B41269",
+				"D4CABE2FEFBE9E39A1FE0247",
+				"D5E10AFFB2A511263FEF5585",
+				"3FDC8BA58EA11ECED1555E13",
+				"69119A85CFCB1484B3A9EA74",
+				"EA1B54AB3AB6F05C5560088E",
+				"760C7417749DC948376206DF",
+				"C2380531D47BE2DCA43010BF",
+				"3382BF10933A5569D49CD02E",
+				"60F3BCFA90F9D214839000F7",
+				"B1A91E5F88B13703D0928823",
+				"E7E9E5D09D1F5784DDFF1857",
+				"09B35AFD659A171529340D2D",
+				"6A6E75D9B7D5DEEA9CBBE1CA",
+				"08720E265443354DB99147B5",
+				"297B48B5A7103B1508062E56",
+				"278ADF59C1834BB2897D51EA",
+				"D737AD0A104ADA9854D1E6A6",
+				"B83D38462058A8701C580D9B",
+				"045D50640ABCEB7C25C142EC",
+				"2DF747BDFF52C3123C4FD472",
+				"7C0A743FD27D4B5B425200BA",
+				"7EAE1880C6F8EBDC477659C7",
+				"F8D55F6E2462E98F9AB1CE56",
+				"53953DD8C19174AD7A9B857B",
+				"5A24E9ADB2C0E41987F9C846",
+				"4774991CEC8A287AA397D647",
+				"512D907810C1D7686EE834F1",
+				"0EB68E34DA4172F08FCEDBA2",
+				"42629DE27C247B42EA78C8E4",
+				"47E32FA1F3D2513BC03A0399",
+				"2DA4958E309165A0A25229CB",
+				"B9B4B82A3060BE90BF07254E",
+				"0BCE089EDA57321580CA4DAF",
+				"EC596754A9F566A767AA3CCB",
+				"DB23202EEF4C694AC04B3589",
+				"E869E70709DE4E1C3AD20ACB",
+				"5B374F47D3E4A7102FBFAB65",
+				"63F59F9FC07850B10CD749B3",
+				"FC310D1F477EB2330168CE81",
+				"FAFB501C2F3F40C39D91218F",
+				"C58972A00ACF8E1E91EF7CE6",
+				"5A08E11F93C061E6E8A30699",
+				"95CBC4B3BA908B17930DDBF2",
+				"15EC1BD783AA420FEB4D2C17",
+				"313ECBE9F67E8DADF14782EA",
+				"7EEE72D12819CEBA5BDCD09D",
+				"7398D97E49965D63F0F107E0",
+				"4A91773807B7E0AFADE95F33",
+				"8256BF1C2260D5DF0FF779B2",
+				"6F766D1DF579E50B9293CB70",
+				"A297556AF1105267A45B57AD",
+				"0CB9DD83C07ED24FA0ED6B97",
+				"47D648F6F44BDBFD75E3854E",
+				"5557D218EE7821DCB68D4449",
+				"CCCA49E03B29A52B0A5169B0",
+				"C5FC51E6EA8BCD5FEBB6FEFA",
+				"6AC846F53773FDFBF0FA574E",
+				"72BF447BBEE0540CF4121741",
+				"99698B244948659734AD9930",
+				"00653FBA72F928F3E239D70D",
+				"A64F621FA42A5B8EC8577189",
+				"6B8F769331A94D028C406B0B",
+				"EE918D000B610A88A8CB35EF",
+				"B1677875F9EA18CCC4A05111",
+				"8AE521023B6E3D730C200354",
+				"1DC52130F42187242DFF5142",
+				"B21BCCBA311C77E92EED2150",
+				"9080F654303856BCFD79E5E5",
+				"43FE31B70DF10F4D05C0ED35",
+				"73D6838D4A77DF667CCE0468",
+				"6539261A34DB1135A52D0207",
+				"52CB89989DDE4D35930F7F42",
+				"F2C98F46E87F513CF4DE91F6",
+				"1834C758470B2D750BA6F33E",
+				"960754CB326E8238838DD365",
+				"743DB4EFD34F3A8CC0B09B54",
+				"96E31590497DD5F2463F1D45",
+				"1E5E6B100ACE77F830AECC1A",
+				"3CA37FF21651889E6D99B981",
+				"F2664F6988963FD8EF5C00F8",
+				"1FC050EFE9B74172005CD96C",
+				"35FF0A10D774AB5B8D1DA8B0",
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"C1BB24065E672D4B864A03EE" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "9D137293EAD0820387268946";
+		};
+		"61815B9EC3F36CF88F495FFC" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "963E5982DADA5BA041DD36E5";
+		};
+		"110DE8FB9D67BF92536AF4D8" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "1698D31B32D16A3C5C4BD473";
+		};
+		"4EAD3D241F396F70AC7DBEE5" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "669A012A12A1F2A99AD17919";
+		};
+		"6031433C25551076EFED899E" = {
+			"isa" = "PBXBuildFile";
+			"productRef" = "A61F807B6AB9E19D98833099";
+		};
+		"758338B8F4B74AAF23FF8C11" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				"C1BB24065E672D4B864A03EE",
+				"61815B9EC3F36CF88F495FFC",
+				"110DE8FB9D67BF92536AF4D8",
+				"4EAD3D241F396F70AC7DBEE5",
+				"6031433C25551076EFED899E",
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"097A7C2C4390D748BC2209E8" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Resources/Fonts/CascadiaMono-Regular.ttf";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "file";
+		};
+		"1C8D8BDD1989959BA01965BE" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "097A7C2C4390D748BC2209E8";
+		};
+		"9053CBB91165E0BCC1465B06" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Resources/Fonts/FiraCode-Regular.ttf";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "file";
+		};
+		"19700BE3A1658BD705A8AEE9" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "9053CBB91165E0BCC1465B06";
+		};
+		"C479AC4B41C7DE3A2D3F1234" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Resources/Fonts/IBMPlexMono-Regular.ttf";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "file";
+		};
+		"B67E19DF7208E08273CE003A" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C479AC4B41C7DE3A2D3F1234";
+		};
+		"F96B60B20ADD8C315A7E97A0" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Resources/Fonts/JetBrainsMono-Regular.ttf";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "file";
+		};
+		"374C4ECEEB70BF0298180F99" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "F96B60B20ADD8C315A7E97A0";
+		};
+		"CA6970E8900BB672541DAC51" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Resources/Fonts/NotoSansSymbols2-Regular.ttf";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "file";
+		};
+		"F10267696B2E1CFF9B0305AF" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "CA6970E8900BB672541DAC51";
+		};
+		"20F83E8BBBD94C8483FBB4E3" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Resources/Fonts/SourceCodePro-Regular.otf";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "file";
+		};
+		"67F55D71ACF611F4C4BE582D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "20F83E8BBBD94C8483FBB4E3";
+		};
+		"5D2D8F0A6213CEE25984AB96" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Resources/Fonts/SymbolsNerdFontMono-Regular.ttf";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "file";
+		};
+		"62E5D339FD49524548B3FC66" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "5D2D8F0A6213CEE25984AB96";
+		};
+		"57289BC00C9897D5B981E000" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Resources/AndroidBaseline.txt";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "text";
+		};
+		"4C3888C23A0B1F34F3EA522E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "57289BC00C9897D5B981E000";
+		};
+		"FA7BF63F58869C15C4A4F034" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Resources/HostMetrics.sh";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "text.script.sh";
+		};
+		"ECDD147B1AD5313C6730D18C" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "FA7BF63F58869C15C4A4F034";
+		};
+		"18CFF1F20FB0F2CE0C0B7A12" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyCore/Resources/agent-hook.sh";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "text.script.sh";
+		};
+		"6C030784C5668F518B03D3F7" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "18CFF1F20FB0F2CE0C0B7A12";
+		};
+		"DCA9917135F7CB713AE492FF" = {
+			"isa" = "PBXFileReference";
+			"path" = "Sources/RoamttyDesktopCore/Resources/desktop-plugin.json";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "text";
+		};
+		"F125F1B87BC23E71921F45C5" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "DCA9917135F7CB713AE492FF";
+		};
+		"3580A070E66438306C51F220" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Resources/Assets.xcassets";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "folder.assetcatalog";
+		};
+		"4593A9B213627677574CC66C" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "3580A070E66438306C51F220";
+		};
+		"8B6F34C637A85A6E6E87B18E" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/Roamtty/Resources/PrivacyInfo.xcprivacy";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "text.xml";
+		};
+		"67EA76B9084BC01A67ABB282" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "8B6F34C637A85A6E6E87B18E";
+		};
+		"4DF8E45C8AA72EA2D3B3549A" = {
+			"isa" = "PBXFileReference";
+			"path" = "THIRD_PARTY_NOTICES.md";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "net.daringfireball.markdown";
+		};
+		"8B63838ECF0A07E370BCC6B4" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "4DF8E45C8AA72EA2D3B3549A";
+		};
+		"A943FDC635DB18E27E38348B" = {
+			"isa" = "PBXFileReference";
+			"path" = "licenses/CC-BY-SA-3.0.txt";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "text";
+		};
+		"6A283744AB6E8D0009F85268" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "A943FDC635DB18E27E38348B";
+		};
+		"9789D90C956BC7DB806DAE5E" = {
+			"isa" = "PBXFileReference";
+			"path" = "licenses/CC-BY-SA-4.0.txt";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "text";
+		};
+		"A969E4DFF74CA6EEA67B247C" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "9789D90C956BC7DB806DAE5E";
+		};
+		"9E84F66AD690AF75CD5F9B51" = {
+			"isa" = "PBXFileReference";
+			"path" = "licenses/Devicon-MIT.txt";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "text";
+		};
+		"80AB4D6C10CC407E7B933F46" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "9E84F66AD690AF75CD5F9B51";
+		};
+		"DFCD1B6754864CBE3794BC73" = {
+			"isa" = "PBXFileReference";
+			"path" = "licenses/OpenSSL-Apache-2.0.txt";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "text";
+		};
+		"D40790972EED527630C2D7B1" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "DFCD1B6754864CBE3794BC73";
+		};
+		"86B1887CC7D99431749E76C8" = {
+			"isa" = "PBXFileReference";
+			"path" = "licenses/SwiftTerm-MIT.txt";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "text";
+		};
+		"D8051A93DB277B6C5B8F992F" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "86B1887CC7D99431749E76C8";
+		};
+		"39A94AA2D50729A699082130" = {
+			"isa" = "PBXFileReference";
+			"path" = "licenses/fonts/CascadiaCode-OFL.txt";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "text";
+		};
+		"ADF89413B33FB9DCB6165748" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "39A94AA2D50729A699082130";
+		};
+		"C77464B22E0B1755FE147350" = {
+			"isa" = "PBXFileReference";
+			"path" = "licenses/fonts/FiraCode-OFL.txt";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "text";
+		};
+		"6E11DB74EEC2EB345FA71CFA" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C77464B22E0B1755FE147350";
+		};
+		"77EA9166B95F53506FC44D50" = {
+			"isa" = "PBXFileReference";
+			"path" = "licenses/fonts/IBMPlexMono-OFL.txt";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "text";
+		};
+		"520D427074BE071D44FC4AEE" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "77EA9166B95F53506FC44D50";
+		};
+		"01C9306DE2F6C17A3CB789B1" = {
+			"isa" = "PBXFileReference";
+			"path" = "licenses/fonts/JetBrainsMono-OFL.txt";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "text";
+		};
+		"46A104FE35180BE41EEC5BBA" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "01C9306DE2F6C17A3CB789B1";
+		};
+		"54E55414F504CD847EA31178" = {
+			"isa" = "PBXFileReference";
+			"path" = "licenses/fonts/NotoSansSymbols2-OFL.txt";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "text";
+		};
+		"5762D63E414915E087BAFEC6" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "54E55414F504CD847EA31178";
+		};
+		"1B1657B24D621DCC00F346AE" = {
+			"isa" = "PBXFileReference";
+			"path" = "licenses/fonts/SourceCodePro-LICENSE.md";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "net.daringfireball.markdown";
+		};
+		"8BF61D6304589290D8446BBC" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "1B1657B24D621DCC00F346AE";
+		};
+		"CA9F4A414110FA210845FE29" = {
+			"isa" = "PBXFileReference";
+			"path" = "licenses/fonts/SymbolsNerdFont-MIT.txt";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "text";
+		};
+		"D82689E449132110D1CA0C7D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "CA9F4A414110FA210845FE29";
+		};
+		"90F98A288FF3AD21A77CEAD0" = {
+			"isa" = "PBXFileReference";
+			"path" = "licenses/libssh2-BSD.txt";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "text";
+		};
+		"001D896BE55338C1FA434A8D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "90F98A288FF3AD21A77CEAD0";
+		};
+		"C357F63F7517FB9672F0CE5C" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				"1C8D8BDD1989959BA01965BE",
+				"19700BE3A1658BD705A8AEE9",
+				"B67E19DF7208E08273CE003A",
+				"374C4ECEEB70BF0298180F99",
+				"F10267696B2E1CFF9B0305AF",
+				"67F55D71ACF611F4C4BE582D",
+				"62E5D339FD49524548B3FC66",
+				"4C3888C23A0B1F34F3EA522E",
+				"ECDD147B1AD5313C6730D18C",
+				"6C030784C5668F518B03D3F7",
+				"F125F1B87BC23E71921F45C5",
+				"4593A9B213627677574CC66C",
+				"67EA76B9084BC01A67ABB282",
+				"8B63838ECF0A07E370BCC6B4",
+				"6A283744AB6E8D0009F85268",
+				"A969E4DFF74CA6EEA67B247C",
+				"80AB4D6C10CC407E7B933F46",
+				"D40790972EED527630C2D7B1",
+				"D8051A93DB277B6C5B8F992F",
+				"ADF89413B33FB9DCB6165748",
+				"6E11DB74EEC2EB345FA71CFA",
+				"520D427074BE071D44FC4AEE",
+				"46A104FE35180BE41EEC5BBA",
+				"5762D63E414915E087BAFEC6",
+				"8BF61D6304589290D8446BBC",
+				"D82689E449132110D1CA0C7D",
+				"001D896BE55338C1FA434A8D",
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"7EC54E9A4B4EDA233ED08F28" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "20ADB0BBEA9CF4248B4BEF65";
+			"settings" = {
+				"ATTRIBUTES" = (
+					"RemoveHeadersOnCopy",
+				);
+			};
+		};
+		"B6DA56E945B75390FEB054EF" = {
+			"isa" = "PBXCopyFilesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"dstPath" = "";
+			"dstSubfolderSpec" = "13";
+			"files" = (
+				"7EC54E9A4B4EDA233ED08F28",
+			);
+			"name" = "Embed App Extensions";
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"88A1D802E2D51A5649CF7650" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SDKROOT" = "iphoneos";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "16.0";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"SWIFT_VERSION" = "5.0";
+				"SWIFT_STRICT_CONCURRENCY" = "minimal";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu11";
+				"CLANG_CXX_LANGUAGE_STANDARD" = "c++17";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "";
+				"COPY_PHASE_STRIP" = "NO";
+				"LM_SKIP_METADATA_EXTRACTION" = "YES";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "NO";
+				"ROAMTTY_APP_GROUP_ENABLED" = "NO";
+				"ROAMTTY_ENTITLEMENTS" = "App/Support/Development.entitlements";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited) DEBUG";
+				"HEADER_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/include",
+				);
+				"LIBRARY_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/lib",
+				);
+				"SWIFT_INCLUDE_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				"OTHER_LDFLAGS" = (
+					"$(inherited)",
+					"-lssh2",
+					"-lcrypto",
+					"-lz",
+					"-lsqlite3",
+				);
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.roamtty.app.ios";
+				"PRODUCT_NAME" = "Roamtty";
+				"INFOPLIST_FILE" = "App/Support/Info.plist";
+				"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+				"MARKETING_VERSION" = "1.0.0";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"LD_RUNPATH_SEARCH_PATHS" = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"CODE_SIGN_ENTITLEMENTS" = "$(ROAMTTY_ENTITLEMENTS)";
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"GCC_OPTIMIZATION_LEVEL" = "0";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"ONLY_ACTIVE_ARCH" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"C3D471837ED731B0B126C6C0" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SDKROOT" = "iphoneos";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "16.0";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"SWIFT_VERSION" = "5.0";
+				"SWIFT_STRICT_CONCURRENCY" = "minimal";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu11";
+				"CLANG_CXX_LANGUAGE_STANDARD" = "c++17";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "";
+				"COPY_PHASE_STRIP" = "NO";
+				"LM_SKIP_METADATA_EXTRACTION" = "YES";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "NO";
+				"ROAMTTY_APP_GROUP_ENABLED" = "NO";
+				"ROAMTTY_ENTITLEMENTS" = "App/Support/Development.entitlements";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited)";
+				"HEADER_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/include",
+				);
+				"LIBRARY_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/lib",
+				);
+				"SWIFT_INCLUDE_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				"OTHER_LDFLAGS" = (
+					"$(inherited)",
+					"-lssh2",
+					"-lcrypto",
+					"-lz",
+					"-lsqlite3",
+				);
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.roamtty.app.ios";
+				"PRODUCT_NAME" = "Roamtty";
+				"INFOPLIST_FILE" = "App/Support/Info.plist";
+				"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+				"MARKETING_VERSION" = "1.0.0";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"LD_RUNPATH_SEARCH_PATHS" = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"CODE_SIGN_ENTITLEMENTS" = "$(ROAMTTY_ENTITLEMENTS)";
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+				"SWIFT_COMPILATION_MODE" = "wholemodule";
+			};
+			"name" = "Release";
+		};
+		"CAF702BC9CB929653B1B161D" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"88A1D802E2D51A5649CF7650",
+				"C3D471837ED731B0B126C6C0",
+			);
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"F195CBB7809CA9E55DDD98F1" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "244210E48437B6556980A702";
+			"proxyType" = "1";
+			"remoteGlobalIDString" = "F63A8345997D082BD812A2ED";
+			"remoteInfo" = "RoamttyCore";
+		};
+		"1686E824DF04A08025BA194F" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "F63A8345997D082BD812A2ED";
+			"targetProxy" = "F195CBB7809CA9E55DDD98F1";
+		};
+		"B51ADBFF1000AE33FAE41077" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "244210E48437B6556980A702";
+			"proxyType" = "1";
+			"remoteGlobalIDString" = "C4625DCC4D38B106280750A0";
+			"remoteInfo" = "RoamttyTransport";
+		};
+		"29D8B3F98A351D3A9CC1F69B" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "C4625DCC4D38B106280750A0";
+			"targetProxy" = "B51ADBFF1000AE33FAE41077";
+		};
+		"550DFAFE2899FA24ACABB942" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "244210E48437B6556980A702";
+			"proxyType" = "1";
+			"remoteGlobalIDString" = "67921D83F12005AC57BD7887";
+			"remoteInfo" = "RoamttyDesktopCore";
+		};
+		"248F395F23D267CA1AA16DE0" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "67921D83F12005AC57BD7887";
+			"targetProxy" = "550DFAFE2899FA24ACABB942";
+		};
+		"2BDE746DE2B44115BE48278B" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "244210E48437B6556980A702";
+			"proxyType" = "1";
+			"remoteGlobalIDString" = "17CB739106A4D48F677BA476";
+			"remoteInfo" = "CNative";
+		};
+		"1969344C90C360A79B130F05" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "17CB739106A4D48F677BA476";
+			"targetProxy" = "2BDE746DE2B44115BE48278B";
+		};
+		"DC3D7A3252DFAA7480C5C867" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "244210E48437B6556980A702";
+			"proxyType" = "1";
+			"remoteGlobalIDString" = "1F04E46F1B79E987897278F5";
+			"remoteInfo" = "RoamttyShare";
+		};
+		"4B5E60146D9CFCD70936267A" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "1F04E46F1B79E987897278F5";
+			"targetProxy" = "DC3D7A3252DFAA7480C5C867";
+		};
+		"A15A88FB27D92A5206DAB6BF" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "CAF702BC9CB929653B1B161D";
+			"buildPhases" = (
+				"BD51FD0F287C65ECDF9A9F79",
+				"758338B8F4B74AAF23FF8C11",
+				"C357F63F7517FB9672F0CE5C",
+				"B6DA56E945B75390FEB054EF",
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+				"1686E824DF04A08025BA194F",
+				"29D8B3F98A351D3A9CC1F69B",
+				"248F395F23D267CA1AA16DE0",
+				"1969344C90C360A79B130F05",
+				"4B5E60146D9CFCD70936267A",
+			);
+			"name" = "Roamtty";
+			"productName" = "Roamtty";
+			"productReference" = "B30607D2B16313D9BC09B393";
+			"productType" = "com.apple.product-type.application";
+			"packageProductDependencies" = (
+				"A61F807B6AB9E19D98833099",
+			);
+		};
+		"D0772D621AEDE7AE479C1A00" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/ShareExtension/ShareViewController.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"0E538DDD03368882EBD92FDA" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "D0772D621AEDE7AE479C1A00";
+		};
+		"F6A199ECE7DFDC680FA013F8" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "275E3DB022CBE6D670178A5A";
+		};
+		"590245E53DF1C285B4345860" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "D513F8D4A0521592F6428607";
+		};
+		"0627D4E20FF9CB2DD9793562" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				"0E538DDD03368882EBD92FDA",
+				"F6A199ECE7DFDC680FA013F8",
+				"590245E53DF1C285B4345860",
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"3DCE9EB0ED4319C26ED8DBC7" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"A85DA85327BA763BADB8B9BA" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/ShareExtension/PrivacyInfo.xcprivacy";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "text.xml";
+		};
+		"1131D8402C3E63F088F1580D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "A85DA85327BA763BADB8B9BA";
+		};
+		"8A9FBF92CE165B44E1F4B26A" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				"1131D8402C3E63F088F1580D",
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"871F2995DDC0B125AF7CB34C" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SDKROOT" = "iphoneos";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "16.0";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"SWIFT_VERSION" = "5.0";
+				"SWIFT_STRICT_CONCURRENCY" = "minimal";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu11";
+				"CLANG_CXX_LANGUAGE_STANDARD" = "c++17";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "";
+				"COPY_PHASE_STRIP" = "NO";
+				"LM_SKIP_METADATA_EXTRACTION" = "YES";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "NO";
+				"ROAMTTY_APP_GROUP_ENABLED" = "NO";
+				"ROAMTTY_ENTITLEMENTS" = "App/Support/Development.entitlements";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited) DEBUG";
+				"HEADER_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/include",
+				);
+				"LIBRARY_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/lib",
+				);
+				"SWIFT_INCLUDE_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				"OTHER_LDFLAGS" = (
+					"$(inherited)",
+				);
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.roamtty.app.ios.share";
+				"PRODUCT_NAME" = "RoamttyShare";
+				"INFOPLIST_FILE" = "App/Support/ShareInfo.plist";
+				"APPLICATION_EXTENSION_API_ONLY" = "YES";
+				"SKIP_INSTALL" = "YES";
+				"MARKETING_VERSION" = "1.0.0";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"CODE_SIGN_ENTITLEMENTS" = "$(ROAMTTY_ENTITLEMENTS)";
+				"LD_RUNPATH_SEARCH_PATHS" = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"GCC_OPTIMIZATION_LEVEL" = "0";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"ONLY_ACTIVE_ARCH" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"BF3E96D04590D399376D0A70" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SDKROOT" = "iphoneos";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "16.0";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"SWIFT_VERSION" = "5.0";
+				"SWIFT_STRICT_CONCURRENCY" = "minimal";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu11";
+				"CLANG_CXX_LANGUAGE_STANDARD" = "c++17";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "";
+				"COPY_PHASE_STRIP" = "NO";
+				"LM_SKIP_METADATA_EXTRACTION" = "YES";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "NO";
+				"ROAMTTY_APP_GROUP_ENABLED" = "NO";
+				"ROAMTTY_ENTITLEMENTS" = "App/Support/Development.entitlements";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited)";
+				"HEADER_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/include",
+				);
+				"LIBRARY_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/lib",
+				);
+				"SWIFT_INCLUDE_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				"OTHER_LDFLAGS" = (
+					"$(inherited)",
+				);
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.roamtty.app.ios.share";
+				"PRODUCT_NAME" = "RoamttyShare";
+				"INFOPLIST_FILE" = "App/Support/ShareInfo.plist";
+				"APPLICATION_EXTENSION_API_ONLY" = "YES";
+				"SKIP_INSTALL" = "YES";
+				"MARKETING_VERSION" = "1.0.0";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"CODE_SIGN_ENTITLEMENTS" = "$(ROAMTTY_ENTITLEMENTS)";
+				"LD_RUNPATH_SEARCH_PATHS" = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+				"SWIFT_COMPILATION_MODE" = "wholemodule";
+			};
+			"name" = "Release";
+		};
+		"C78383CD7AE94221BBE2F187" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"871F2995DDC0B125AF7CB34C",
+				"BF3E96D04590D399376D0A70",
+			);
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"1F04E46F1B79E987897278F5" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "C78383CD7AE94221BBE2F187";
+			"buildPhases" = (
+				"0627D4E20FF9CB2DD9793562",
+				"3DCE9EB0ED4319C26ED8DBC7",
+				"8A9FBF92CE165B44E1F4B26A",
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+			);
+			"name" = "RoamttyShare";
+			"productName" = "RoamttyShare";
+			"productReference" = "20ADB0BBEA9CF4248B4BEF65";
+			"productType" = "com.apple.product-type.app-extension";
+		};
+		"E93346798CF2F6130E2A162E" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/AgentNotificationUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"8152CF244842AB751690FB9B" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "E93346798CF2F6130E2A162E";
+		};
+		"14BF9A9AE49BE5EBFBC22FD5" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/AppStoreScreenshotUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"A4AB93132855CE43F06F58B8" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "14BF9A9AE49BE5EBFBC22FD5";
+		};
+		"5BC309CB3029BB4CE07BCDE0" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/AuthenticationUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"2D10B1F3B774DE15F6DE502B" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "5BC309CB3029BB4CE07BCDE0";
+		};
+		"8560F45539F8FACE3AF1017F" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/CommandHistoryUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"FECBDBE867F32405D0F7FD91" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "8560F45539F8FACE3AF1017F";
+		};
+		"4514B1534341631C40E050B2" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/ContinueSessionUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"4DDB6ECBA8F391CF35A39272" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "4514B1534341631C40E050B2";
+		};
+		"5578F26A17FECB07997E0DF6" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/DesktopGestureUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"5D1FE89A78BF14A03A5B4C89" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "5578F26A17FECB07997E0DF6";
+		};
+		"9B76F49E9E6AEDB080AD92DB" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/DesktopLaunchUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"89FA9E018A32D004626F17CB" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "9B76F49E9E6AEDB080AD92DB";
+		};
+		"0BE5CF59813BE59F707871C3" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/DraftFocusUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"49AEEC144FA6D9666704752E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "0BE5CF59813BE59F707871C3";
+		};
+		"24C627DA616761C7BF19EE30" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/FileSortingUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"713EB25EB0623A039F1E39B6" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "24C627DA616761C7BF19EE30";
+		};
+		"48A213B2252282D1D8204985" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/FilesUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"6C4C6149B117DB44A37C9270" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "48A213B2252282D1D8204985";
+		};
+		"1EFC1D94F9EB991503BC5957" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/HomeLandscapeUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"6B2EF5457A47BD60648475A6" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "1EFC1D94F9EB991503BC5957";
+		};
+		"44E7639112664E544A978F6B" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/HostScreenCardUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"C2E3E3D8011F76971773C3FF" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "44E7639112664E544A978F6B";
+		};
+		"739E4A8ABE4A4E9F9E9F2855" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/LandscapePagesUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"6F3F5131776E6B4FE0930069" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "739E4A8ABE4A4E9F9E9F2855";
+		};
+		"AE18C3542839A4BC90F492FC" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/LandscapeSheetsUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"8E8B3F5082CD9F9B5BE8C48E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "AE18C3542839A4BC90F492FC";
+		};
+		"92517A6688BB864D987E8B90" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/NativeFileWorkflowUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"EF454252C2A0075113C991E3" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "92517A6688BB864D987E8B90";
+		};
+		"14D1F9719A9D06DFA7564A67" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/NavigationUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"33CD919E270B147D74A13D9B" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "14D1F9719A9D06DFA7564A67";
+		};
+		"DEBF387A1044BABBC67B883C" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/NetworkRecoveryUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"AA54280581B7B4AC33E7F8F7" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "DEBF387A1044BABBC67B883C";
+		};
+		"8E34196EBFDF72365B24AA91" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/ParityScreenshotUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"BF601020C27E89CB993250C1" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "8E34196EBFDF72365B24AA91";
+		};
+		"52330A536B200C9C16B4E6C5" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/PluginInstallationUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"7B2451AB1C093A12F5587934" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "52330A536B200C9C16B4E6C5";
+		};
+		"2C801C079FA55563D06C2B14" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/PreviewSettingsUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"793D32CF5383FDB1DA18E561" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "2C801C079FA55563D06C2B14";
+		};
+		"B07ADD9C13005F91213B615A" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/RoamttyLiveUITestCase.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"0D797F1559BDDEB604C09281" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "B07ADD9C13005F91213B615A";
+		};
+		"7333C069394814259D42C753" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/RoamttyUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"36013B1C80EE8ED91E542170" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "7333C069394814259D42C753";
+		};
+		"5C85A4D9D99DB89552952B5D" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/SessionCapacityUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"C9C4CCC113ED143330172A0B" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "5C85A4D9D99DB89552952B5D";
+		};
+		"3007552F5558FE43AE6EB6B1" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/SessionHostChipUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"7891A97F95F1C2566501C3B7" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "3007552F5558FE43AE6EB6B1";
+		};
+		"53A3BE6ED3921EE9F96B4F5F" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/TerminalGestureUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"564E8FB01B635C30E8767736" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "53A3BE6ED3921EE9F96B4F5F";
+		};
+		"D38178006D297C0F2B706917" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/TerminalLinksUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"63791E5A4ED8648C72F0EB45" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "D38178006D297C0F2B706917";
+		};
+		"E3B676570A0896087DEDF330" = {
+			"isa" = "PBXFileReference";
+			"path" = "App/UITests/TerminalSettingsUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+			"lastKnownFileType" = "sourcecode.swift";
+		};
+		"1505D11C5E5873A8800F80D2" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "E3B676570A0896087DEDF330";
+		};
+		"13FBDC136B79F83D32EA8510" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				"8152CF244842AB751690FB9B",
+				"A4AB93132855CE43F06F58B8",
+				"2D10B1F3B774DE15F6DE502B",
+				"FECBDBE867F32405D0F7FD91",
+				"4DDB6ECBA8F391CF35A39272",
+				"5D1FE89A78BF14A03A5B4C89",
+				"89FA9E018A32D004626F17CB",
+				"49AEEC144FA6D9666704752E",
+				"713EB25EB0623A039F1E39B6",
+				"6C4C6149B117DB44A37C9270",
+				"6B2EF5457A47BD60648475A6",
+				"C2E3E3D8011F76971773C3FF",
+				"6F3F5131776E6B4FE0930069",
+				"8E8B3F5082CD9F9B5BE8C48E",
+				"EF454252C2A0075113C991E3",
+				"33CD919E270B147D74A13D9B",
+				"AA54280581B7B4AC33E7F8F7",
+				"BF601020C27E89CB993250C1",
+				"7B2451AB1C093A12F5587934",
+				"793D32CF5383FDB1DA18E561",
+				"0D797F1559BDDEB604C09281",
+				"36013B1C80EE8ED91E542170",
+				"C9C4CCC113ED143330172A0B",
+				"7891A97F95F1C2566501C3B7",
+				"564E8FB01B635C30E8767736",
+				"63791E5A4ED8648C72F0EB45",
+				"1505D11C5E5873A8800F80D2",
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"E7EFAB20F23BD6C8891EA0B4" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"F4785201CEA0A6D6C6B5C554" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SDKROOT" = "iphoneos";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "16.0";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"SWIFT_VERSION" = "5.0";
+				"SWIFT_STRICT_CONCURRENCY" = "minimal";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu11";
+				"CLANG_CXX_LANGUAGE_STANDARD" = "c++17";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "";
+				"COPY_PHASE_STRIP" = "NO";
+				"LM_SKIP_METADATA_EXTRACTION" = "YES";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "NO";
+				"ROAMTTY_APP_GROUP_ENABLED" = "NO";
+				"ROAMTTY_ENTITLEMENTS" = "App/Support/Development.entitlements";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited) DEBUG";
+				"HEADER_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/include",
+				);
+				"LIBRARY_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/lib",
+				);
+				"SWIFT_INCLUDE_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				"OTHER_LDFLAGS" = (
+					"$(inherited)",
+				);
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.roamtty.app.ios.uitests";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"TEST_TARGET_NAME" = "Roamtty";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"GCC_OPTIMIZATION_LEVEL" = "0";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"ONLY_ACTIVE_ARCH" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"EE1AC2ECA0FC9FCD2B4CA13C" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SDKROOT" = "iphoneos";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "16.0";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"SWIFT_VERSION" = "5.0";
+				"SWIFT_STRICT_CONCURRENCY" = "minimal";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu11";
+				"CLANG_CXX_LANGUAGE_STANDARD" = "c++17";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "";
+				"COPY_PHASE_STRIP" = "NO";
+				"LM_SKIP_METADATA_EXTRACTION" = "YES";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "NO";
+				"ROAMTTY_APP_GROUP_ENABLED" = "NO";
+				"ROAMTTY_ENTITLEMENTS" = "App/Support/Development.entitlements";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited)";
+				"HEADER_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/include",
+				);
+				"LIBRARY_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/lib",
+				);
+				"SWIFT_INCLUDE_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				"OTHER_LDFLAGS" = (
+					"$(inherited)",
+				);
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.roamtty.app.ios.uitests";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"TEST_TARGET_NAME" = "Roamtty";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+				"SWIFT_COMPILATION_MODE" = "wholemodule";
+			};
+			"name" = "Release";
+		};
+		"D0CE74EA45F3FEEC5958A917" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"F4785201CEA0A6D6C6B5C554",
+				"EE1AC2ECA0FC9FCD2B4CA13C",
+			);
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"F8C77FAC23AB2932B35F225E" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "244210E48437B6556980A702";
+			"proxyType" = "1";
+			"remoteGlobalIDString" = "A15A88FB27D92A5206DAB6BF";
+			"remoteInfo" = "Roamtty";
+		};
+		"AB36FCD79DD169984C94ECFC" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "A15A88FB27D92A5206DAB6BF";
+			"targetProxy" = "F8C77FAC23AB2932B35F225E";
+		};
+		"0E87BF95EAF0F4D5AB5B25FC" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "D0CE74EA45F3FEEC5958A917";
+			"buildPhases" = (
+				"13FBDC136B79F83D32EA8510",
+				"E7EFAB20F23BD6C8891EA0B4",
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+				"AB36FCD79DD169984C94ECFC",
+			);
+			"name" = "RoamttyUITests";
+			"productName" = "RoamttyUITests";
+			"productReference" = "14B9BC29A74E489722D4C0B8";
+			"productType" = "com.apple.product-type.bundle.ui-testing";
+		};
+		"01AC32DF7ED67D23A6DE0B00" = {
+			"isa" = "XCRemoteSwiftPackageReference";
+			"repositoryURL" = "https://github.com/yahaa/SwiftTerm.git";
+			"requirement" = {
+				"kind" = "revision";
+				"revision" = "0a311223749cf1b96294772a2c5478be67915572";
+			};
+		};
+		"A61F807B6AB9E19D98833099" = {
+			"isa" = "XCSwiftPackageProductDependency";
+			"package" = "01AC32DF7ED67D23A6DE0B00";
+			"productName" = "SwiftTerm";
+		};
+		"0A3E27B8CA818264D75C8D81" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				"669A012A12A1F2A99AD17919",
+				"9D137293EAD0820387268946",
+				"963E5982DADA5BA041DD36E5",
+				"1698D31B32D16A3C5C4BD473",
+				"B30607D2B16313D9BC09B393",
+				"20ADB0BBEA9CF4248B4BEF65",
+				"14B9BC29A74E489722D4C0B8",
+			);
+			"name" = "Products";
+			"sourceTree" = "<group>";
+		};
+		"0D6E4079E36703EBD37C0072" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				"B6017F4F9715BEEF46CF61B5",
+				"F29D2CBFE59662B7EEDFF4CF",
+				"9DA935E7F972A8D85DA74A18",
+				"12A0B07E1396A716062069BF",
+				"DD135AE328425E2795939845",
+				"3A938337318A347BAE494B2B",
+				"ACA00831E368C5F462338997",
+				"64F3670E1868B5042B858670",
+				"A828B1F3627B578DB78D1191",
+				"EAF8A5D9A5A4E4D01EDA2F0C",
+				"5911AA64DC51D79AF1D48EE3",
+				"014BC45F59967C01823B86D0",
+				"888D25239A31B49E2AD6D34C",
+				"C5EEE17109AD65380016E716",
+				"2A62D01C332DFCB74A61A00D",
+				"479A1910BF014C20FC5AF9DE",
+				"A143104B8ED0BF4DD32C7D4A",
+				"841793D9AD9C3E64C02BA933",
+				"F811886F553657F44D323B63",
+				"D3BB72CD8CEDBD456BC359B9",
+				"FEED4FC34DD713D350EC6BCF",
+				"1FF70DD71F89C24319E7B56F",
+				"AF0DB593C0A15610CE404A1C",
+				"DDBA20A7850C42CE1BB647FD",
+				"F0559CCEFC205D7F638A69B4",
+				"509F207EB17BDF731A4E75FC",
+				"61C76A1052AAC076E578C27B",
+				"CA40783062D85E118B48D1B3",
+				"D8C04439A049DB28EC095138",
+				"5D352DFC0CB3932BE4310117",
+				"8829EFED30FF69AC57070DD3",
+				"B12148D47D4A403895ADAD9C",
+				"9584A3E060A90DAE76F52D31",
+				"DEC4E88920BF88513B721B48",
+				"58D4AA42874F42E45272C0EF",
+				"389DDE38C8E45502D2229DF4",
+				"A986020F5DF4C4B0EB053611",
+				"57FEC7FE39114A38EBCC061B",
+				"91E23E61F928968365F02DAF",
+				"FB640DA7118FFAF78BD8BD5E",
+				"2CD3CACF87AB7B4914962BCB",
+				"7C26E08C1C0DA8DF118B38E5",
+				"222C3CC93EAC0C2D4CB6B3AC",
+				"5592D8486B70ADB6F754D2F5",
+				"75C20B438DEA5317313E2E45",
+				"9A73CEC65694F9A246D6655F",
+				"024B9FECFDDD6BB5F3A73CAC",
+				"D8BDC8BC630C1BAF30F87DB0",
+				"38D68A97E078A8F2A64DF395",
+				"F4B54B0336DEDE94FFC7328E",
+				"C17D876C1AEF3D85F4DE9A7B",
+				"7143C377557812A60016CDCE",
+				"9024D0B1E705D9201188720F",
+				"9F678F1890FA8F8D8BC2CE4E",
+				"C308B9079A549ACAFE14007B",
+				"3BD9B0D18C05A7BCEF52DF8C",
+				"C98ABC51B61EF1EC84EED5A2",
+				"9F8DFDFC2283FA04515B24AF",
+				"CE9BA8BA2A37F5CCF917E751",
+				"CAB18B1E7042A707B60AC358",
+				"0DE2980E73070D8E0734BE8D",
+				"DD3FBBB87454B55ACE58AC6F",
+				"38910070A7182C2D1E88396A",
+				"BD474F7CCE67011ACAB14F43",
+				"A5A9162E9BF9AE61C3EF96EF",
+				"F7DFA4B871C63F0936775C7A",
+				"49EA6B4325FB139A90B6D6D6",
+				"92ECD6A0F533B5871C577065",
+				"214A7AC0F6382E8EE9E9A072",
+				"F2672ED5BBF58576E44F8C0E",
+				"06553FE0040153E107D34809",
+				"2920228034DC1736EC9D27A2",
+				"94A275D205A0E28ED2D2601E",
+				"E253649D0644962204A856CE",
+				"8AADF96DA52A4385487B76A0",
+				"5840B97A1E2E2F0D654FAFB9",
+				"577C2081524F6D31E90EF88F",
+				"E73517CFB108CBC79DFA0A3B",
+				"404F0694E3CD88C22A958250",
+				"0C1A6AD0AC6F4BD341261786",
+				"C4719BB7A40C69B4BB90949C",
+				"1C0F55BC984A00E2FE1CB0B1",
+				"9B08EBA3F490BF692ECC1135",
+				"A59D7221C7F9570DE814F76C",
+				"6D5A4D6FB7EBCF3D12515554",
+				"40EF96F863EA1470C5ED50DA",
+				"1659750E2A07027522D5D3BC",
+				"46CE8670660FCE7C9E059E3F",
+				"AF11A6F1A8B8F9621BB73A4E",
+				"B0A8A779DAD9D6D35AD13587",
+				"7672C1D1E26CB56E4D1FA8A3",
+				"F8750F867E3429D175D3957A",
+				"2C6A5B7E10DADC4DBC5248D9",
+				"FD95E4BA05DE0B8F82CBC8C2",
+				"AF728D00D79479C342578648",
+				"B3AFEB07524685A45CC93F10",
+				"E141EFA8404E93DBC6F842A6",
+				"F6BA3F722378544A63AD3274",
+				"1ADA88A30302E2D195D883DE",
+				"6DF5BD7A41ABA93A5B3BCC6A",
+				"12E6B62471A619BBA53C6A1E",
+				"12DB3B6F296F1EB501DF00A2",
+				"8F958728F8123D720A6D9DCE",
+				"3BE3A7F9849142C8474BB817",
+				"87670F7BED7A11AE57E43EB1",
+				"2B29743BE80BD90DF11BEB3D",
+				"40AA4359756DB6C26027B26A",
+				"232194980784D32A81AEA7CC",
+				"548BBB2D817D5D81219BCB59",
+				"6ABFBDE6C434349A20452FAB",
+				"AB1934EB1BB3426F4C30617C",
+				"0BC928A5F4111A1B41E94DCC",
+				"B8DA06947B6007790A72E9D0",
+				"74EAEC1A32C5CD5D7E2751A9",
+				"1C67C15CDD4297FB60523772",
+				"9A4D39FDF1DBC5DDD2DCBE20",
+				"0D972A6AAF9218B187107B7C",
+				"C66CFA1185C0D4BC54595A36",
+				"6763ECB9A2D2680E90647299",
+				"F4BBB2C551938AB82E7A8CC2",
+				"2B4D81A451F2C2F4C06593FE",
+				"E49CAE7E3B221BFE44F7FFDD",
+				"FCFA99D4F3AFBA04117A9168",
+				"C531E153BD9EF22F189D146C",
+				"5899D0E459BD3A8E0F3A8D07",
+				"BE0B584D9D01118CA151F966",
+				"C7EC58EF90FA0E8EAFC40B1B",
+				"C33D7B00423C861F7AA92C87",
+				"12B61485031CCAE944A47479",
+				"DC6EF45FA30D3B84E77F41ED",
+				"75FF316EAAADDD4FAB76B775",
+				"9FEA86E4A1264E1A702678FC",
+				"F39A53C52C3F6F50565D0D2D",
+				"30469A9FC259E7AFCB3FD56D",
+				"9F54F99C3AF52D8AEA111C2B",
+				"F54B1190BF7A1A558907F83A",
+				"D7BDD82F29C03C86EA902D4D",
+				"CF36B2E8B5AEE4AB5CE8E80C",
+				"81502EBD6DFAB4639BE97DD3",
+				"A6E1151EE72EE874BA069958",
+				"67BC99ED81EBE184E0FDC319",
+				"FC324873FC503F4693580CE0",
+				"EC3F3D2734191003A108AD1E",
+				"7D862FF64844B700E603C7C8",
+				"5721B2953E9025CA3F6500E7",
+				"C5BC036265A99B56D5A01710",
+				"6334EFCE2E3B20800270AE13",
+				"30F04D9440BCB9E5848B74BE",
+				"57CC687143903F66CF4E3657",
+				"C57107BED9387B656A3EC1DB",
+				"14FEB80F67F8624B0AE8276C",
+				"2D014E603245B00F01AED3E8",
+				"8D0D86AAD40EC80D68CBB5F2",
+				"7D5228076E00B068894DFD80",
+				"B46B7B3A820F0BA4AF92ADD8",
+				"65C83CC15CB01798303FB913",
+				"982B222189F932DC1A2BF036",
+				"0446A1EE9ACBC696C2D24E48",
+				"38EF7EAA30C7FA08A7FE934B",
+				"15D786BA21D6A9B1FC366057",
+				"E65BBC7CAEF10FF5389AC123",
+				"60C14E9953D3B87D01D1B0C8",
+				"A39601E243294F7242D757D3",
+				"7044CD4EE556982AC52EF617",
+				"C05E7651DAC54DEDA0D87685",
+				"51C98CDE1F45DF3F9FAA2356",
+				"96C8AD42D649B47E8836D756",
+				"DADE823230C8E3ECCC666E16",
+				"7A3FA0B3936A8E0267F8A04B",
+				"4945D30DB826049A20AB314B",
+				"EC4C008C4F1F0E4A42D53E21",
+				"DACDF14B148B60D710793B90",
+				"DD8FC09DB204B207B66DA7B8",
+				"52C0E61190107DD201A7D211",
+				"07EC1078D64F2213288D559C",
+				"275E3DB022CBE6D670178A5A",
+				"D513F8D4A0521592F6428607",
+				"097A7C2C4390D748BC2209E8",
+				"9053CBB91165E0BCC1465B06",
+				"C479AC4B41C7DE3A2D3F1234",
+				"F96B60B20ADD8C315A7E97A0",
+				"CA6970E8900BB672541DAC51",
+				"20F83E8BBBD94C8483FBB4E3",
+				"5D2D8F0A6213CEE25984AB96",
+				"57289BC00C9897D5B981E000",
+				"FA7BF63F58869C15C4A4F034",
+				"18CFF1F20FB0F2CE0C0B7A12",
+				"DCA9917135F7CB713AE492FF",
+				"3580A070E66438306C51F220",
+				"8B6F34C637A85A6E6E87B18E",
+				"4DF8E45C8AA72EA2D3B3549A",
+				"A943FDC635DB18E27E38348B",
+				"9789D90C956BC7DB806DAE5E",
+				"9E84F66AD690AF75CD5F9B51",
+				"DFCD1B6754864CBE3794BC73",
+				"86B1887CC7D99431749E76C8",
+				"39A94AA2D50729A699082130",
+				"C77464B22E0B1755FE147350",
+				"77EA9166B95F53506FC44D50",
+				"01C9306DE2F6C17A3CB789B1",
+				"54E55414F504CD847EA31178",
+				"1B1657B24D621DCC00F346AE",
+				"CA9F4A414110FA210845FE29",
+				"90F98A288FF3AD21A77CEAD0",
+				"D0772D621AEDE7AE479C1A00",
+				"A85DA85327BA763BADB8B9BA",
+				"E93346798CF2F6130E2A162E",
+				"14BF9A9AE49BE5EBFBC22FD5",
+				"5BC309CB3029BB4CE07BCDE0",
+				"8560F45539F8FACE3AF1017F",
+				"4514B1534341631C40E050B2",
+				"5578F26A17FECB07997E0DF6",
+				"9B76F49E9E6AEDB080AD92DB",
+				"0BE5CF59813BE59F707871C3",
+				"24C627DA616761C7BF19EE30",
+				"48A213B2252282D1D8204985",
+				"1EFC1D94F9EB991503BC5957",
+				"44E7639112664E544A978F6B",
+				"739E4A8ABE4A4E9F9E9F2855",
+				"AE18C3542839A4BC90F492FC",
+				"92517A6688BB864D987E8B90",
+				"14D1F9719A9D06DFA7564A67",
+				"DEBF387A1044BABBC67B883C",
+				"8E34196EBFDF72365B24AA91",
+				"52330A536B200C9C16B4E6C5",
+				"2C801C079FA55563D06C2B14",
+				"B07ADD9C13005F91213B615A",
+				"7333C069394814259D42C753",
+				"5C85A4D9D99DB89552952B5D",
+				"3007552F5558FE43AE6EB6B1",
+				"53A3BE6ED3921EE9F96B4F5F",
+				"D38178006D297C0F2B706917",
+				"E3B676570A0896087DEDF330",
+				"0A3E27B8CA818264D75C8D81",
+			);
+			"sourceTree" = "<group>";
+		};
+		"6F0A4CC74192D9E5C67D4404" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SDKROOT" = "iphoneos";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "16.0";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"SWIFT_VERSION" = "5.0";
+				"SWIFT_STRICT_CONCURRENCY" = "minimal";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu11";
+				"CLANG_CXX_LANGUAGE_STANDARD" = "c++17";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "";
+				"COPY_PHASE_STRIP" = "NO";
+				"LM_SKIP_METADATA_EXTRACTION" = "YES";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "NO";
+				"ROAMTTY_APP_GROUP_ENABLED" = "NO";
+				"ROAMTTY_ENTITLEMENTS" = "App/Support/Development.entitlements";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited) DEBUG";
+				"HEADER_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/include",
+				);
+				"LIBRARY_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/lib",
+				);
+				"SWIFT_INCLUDE_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				"OTHER_LDFLAGS" = (
+					"$(inherited)",
+					"-lssh2",
+					"-lcrypto",
+					"-lz",
+					"-lsqlite3",
+				);
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"GCC_OPTIMIZATION_LEVEL" = "0";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"ONLY_ACTIVE_ARCH" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"06C66BBD3BF4828F0C034C49" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SDKROOT" = "iphoneos";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "16.0";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"SWIFT_VERSION" = "5.0";
+				"SWIFT_STRICT_CONCURRENCY" = "minimal";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu11";
+				"CLANG_CXX_LANGUAGE_STANDARD" = "c++17";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "";
+				"COPY_PHASE_STRIP" = "NO";
+				"LM_SKIP_METADATA_EXTRACTION" = "YES";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "NO";
+				"ROAMTTY_APP_GROUP_ENABLED" = "NO";
+				"ROAMTTY_ENTITLEMENTS" = "App/Support/Development.entitlements";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited)";
+				"HEADER_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/include",
+				);
+				"LIBRARY_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Vendor/$(PLATFORM_NAME)/lib",
+				);
+				"SWIFT_INCLUDE_PATHS" = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CNative/include",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				"OTHER_LDFLAGS" = (
+					"$(inherited)",
+					"-lssh2",
+					"-lcrypto",
+					"-lz",
+					"-lsqlite3",
+				);
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+				"SWIFT_COMPILATION_MODE" = "wholemodule";
+			};
+			"name" = "Release";
+		};
+		"72FE4DCF846896F90B9F49D6" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"6F0A4CC74192D9E5C67D4404",
+				"06C66BBD3BF4828F0C034C49",
+			);
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"244210E48437B6556980A702" = {
+			"isa" = "PBXProject";
+			"attributes" = {
+				"BuildIndependentTargetsInParallel" = "YES";
+				"LastUpgradeCheck" = "1600";
+				"TargetAttributes" = {
+					"0E87BF95EAF0F4D5AB5B25FC" = {
+						"TestTargetID" = "A15A88FB27D92A5206DAB6BF";
+					};
+				};
+			};
+			"buildConfigurationList" = "72FE4DCF846896F90B9F49D6";
+			"compatibilityVersion" = "Xcode 14.0";
+			"developmentRegion" = "en";
+			"hasScannedForEncodings" = "0";
+			"knownRegions" = (
+				"en",
+				"zh-Hans",
+				"Base",
+			);
+			"mainGroup" = "0D6E4079E36703EBD37C0072";
+			"productRefGroup" = "0A3E27B8CA818264D75C8D81";
+			"projectDirPath" = "";
+			"projectRoot" = "";
+			"targets" = (
+				"17CB739106A4D48F677BA476",
+				"F63A8345997D082BD812A2ED",
+				"C4625DCC4D38B106280750A0",
+				"67921D83F12005AC57BD7887",
+				"A15A88FB27D92A5206DAB6BF",
+				"1F04E46F1B79E987897278F5",
+				"0E87BF95EAF0F4D5AB5B25FC",
+			);
+			"packageReferences" = (
+				"01AC32DF7ED67D23A6DE0B00",
+			);
+		};
+	};
+	"rootObject" = "244210E48437B6556980A702";
+}

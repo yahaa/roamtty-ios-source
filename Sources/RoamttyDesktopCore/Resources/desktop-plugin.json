@@ -1,0 +1,36 @@
+{
+  "baseUrl": "https://github.com/yahaa/roamtty-desktop/releases/download/v0.9.7/",
+  "openh264": "2.6.0",
+  "proto": {
+    "max": 1,
+    "min": 1
+  },
+  "targets": {
+    "linux-aarch64": {
+      "file": "linux-aarch64.gz",
+      "sha256": "7926661360323f1509681386ac9c5020b380a1e7b31b1a82b4c2b1e315caf71e",
+      "size": 1697496
+    },
+    "linux-x86_64": {
+      "file": "linux-x86_64.gz",
+      "sha256": "c6147b37bc94b4f16b808cfd152838c4bfcbc379044d0fdfd65841153c316310",
+      "size": 1861424
+    },
+    "macos-universal": {
+      "file": "macos-universal.zip",
+      "sha256": "b4a599e7cdf789a3b9b6de5b6904114995943457cc7f1dddeea1a0a7ad7f8288",
+      "size": 1286772
+    },
+    "windows-arm64": {
+      "file": "windows-arm64.exe",
+      "sha256": "dc295b227efcd5d15300558b4644f676f6ffe3dbe4295b0d6fed34e9d801920d",
+      "size": 1581056
+    },
+    "windows-x64": {
+      "file": "windows-x64.exe",
+      "sha256": "39842c2537c28ef25091c6f0c665965fe8169ba81190fbdebf44e366e0a73444",
+      "size": 1598976
+    }
+  },
+  "version": "0.9.7"
+}

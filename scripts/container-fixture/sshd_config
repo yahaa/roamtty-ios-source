@@ -1,0 +1,15 @@
+PasswordAuthentication yes
+KbdInteractiveAuthentication yes
+PermitRootLogin no
+AllowUsers itermux_test
+AuthorizedKeysFile /run/fixture/authorized_keys
+# Local forwarding only: the in-app preview of a host's localhost pages opens direct-tcpip channels.
+AllowTcpForwarding local
+# Only to the loopback names the app asks for: any other target is "administratively prohibited", as on a server that
+# forwards nothing, which PortTunnelTests checks.
+PermitOpen localhost:* 127.0.0.1:* [::1]:*
+X11Forwarding no
+PrintMotd no
+PrintLastLog no
+AcceptEnv LANG LC_*
+LogLevel ERROR

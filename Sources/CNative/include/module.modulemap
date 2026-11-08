@@ -1,0 +1,4 @@
+module CNative {
+    header "CNative.h"
+    export *
+}
