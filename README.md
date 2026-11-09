@@ -1,16 +1,22 @@
 # Roamtty iOS
 
-Swift iOS client for Roamtty: saved SSH hosts, monitoring, independent shell/tmux sessions, native terminal, mosh, SFTP, file previews and transfers, coding-agent launchers, and sharing from iOS.
+**Leave your desk. Keep your AI workspace.** Mobile SSH for remote Claude Code / Codex sessions, SFTP, and the same host’s remote desktop.
 
-Behavior reference: Android `yahaa/roamtty` main `5fc87b3` (earlier parity: `bee299d`). The implementation uses SwiftUI, UIKit/SwiftTerm, libssh2, OpenSSL, SQLite, and device-only Keychain. Requires iOS 16 or later.
+<p align="left">
+  <a href="https://apps.apple.com/app/id6826986771">
+    <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1731024000" alt="Download on the App Store" height="60">
+  </a>
+</p>
+
+[App Store](https://apps.apple.com/app/id6826986771) · [Product site & setup](https://roamtty.com/en/) · [中文文档](https://roamtty.com) · [Privacy architecture](PRIVACY-ARCHITECTURE.md)
+
+US App Store: **US$1.99 one-time** (local prices vary; as of November 8, 2026). No app subscription; AI model access is not included. Apache-2.0 source — build with your own signing setup.
+
+Swift iOS client: saved SSH hosts, monitoring, independent shell/tmux sessions, native terminal, mosh, SFTP, file previews and transfers, coding-agent launchers, and sharing from iOS. Behavior reference: Android `yahaa/roamtty` main `5fc87b3` (earlier parity: `bee299d`). Uses SwiftUI, UIKit/SwiftTerm, libssh2, OpenSSL, SQLite, and device-only Keychain. Requires iOS 16 or later.
 
 ## Continue your work away from your desk
 
 Your AI tools run on your computer. Roamtty lets your iPhone reconnect to that workspace: continue a terminal session, inspect files over SFTP, then switch to the host's desktop to check a browser preview.
-
-[Get Roamtty on the App Store](https://apps.apple.com/app/apple-store/id6826986771?pt=128832418&ct=github-ios-source-20261108&mt=8) · [Setup guide](https://roamtty.com/en/) · [Data-handling details](PRIVACY-ARCHITECTURE.md)
-
-The US App Store price is **US$1.99, one-time purchase**, as of November 8, 2026. Check your storefront for the current local price. There is no app subscription; AI model access is not included. You can also build this Apache-2.0 iOS source yourself with your own development and signing setup.
 
 ### Terminal to browser preview
 
